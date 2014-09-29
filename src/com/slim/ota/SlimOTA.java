@@ -24,6 +24,7 @@ import java.io.InputStreamReader;
 import android.app.AlarmManager;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
@@ -182,6 +183,8 @@ public class SlimOTA extends Fragment implements OnSharedPreferenceChangeListene
 
         mUpdateFile.setTextColor(Color.RED);
 
+        Context context = getView().getContext();
+
         if (!UpdateChecker.connectivityAvailable(getActivity())) {
             mStrUpToDate = getString(R.string.no_data_title);
             mStatusIcon.setImageResource(R.drawable.ic_no_data);
@@ -189,7 +192,7 @@ public class SlimOTA extends Fragment implements OnSharedPreferenceChangeListene
             mStrUpToDate = getString(R.string.error_reading_title);
             mStatusIcon.setImageResource(R.drawable.ic_no_data);
         } else if (updateFile.compareToIgnoreCase(mStrCurVer)<=0) {
-            mUpdateFile.setTextColor(Color.GREEN);
+            mUpdateFile.setTextColor(context.getResources().getColor(R.color.holo_green));
             mStrUpToDate = getString(R.string.up_to_date_title);
             mStatusIcon.setImageResource(R.drawable.ic_uptodate);
         } else {
