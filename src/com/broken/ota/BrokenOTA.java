@@ -1,20 +1,20 @@
 /*=========================================================================
  *
- *  PROJECT:  SlimRoms
- *            Team Slimroms (http://www.slimroms.net)
+ *  PROJECT:  BrokenOs
+ *            Team Brokenroms (http://www.BrokenOs.net)
  *
- *  COPYRIGHT Copyright (C) 2013 Slimroms http://www.slimroms.net
+ *  COPYRIGHT Copyright (C) 2013 Brokenroms http://www.BrokenOs.net
  *            All rights reserved
  *
  *  LICENSE   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  *
  *  AUTHORS:     fronti90, mnazim, tchaari, kufikugel
- *  DESCRIPTION: SlimOTA keeps our rom up to date
+ *  DESCRIPTION: BrokenOTA keeps our rom up to date
  *
  *=========================================================================
  */
 
-package com.slim.ota;
+package com.broken.ota;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -38,12 +38,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.slim.ota.updater.UpdateChecker;
-import com.slim.ota.updater.UpdateListener;
-import com.slim.ota.settings.Settings;
+import com.broken.ota.updater.UpdateChecker;
+import com.broken.ota.updater.UpdateListener;
+import com.broken.ota.settings.Settings;
 import com.commonsware.cwac.wakeful.WakefulIntentService;
 
-public class SlimOTA extends Fragment implements OnSharedPreferenceChangeListener {
+public class BrokenOTA extends Fragment implements OnSharedPreferenceChangeListener {
 
     private static final int ID_DEVICE_NAME = R.id.deviceName;
     private static final int ID_DEVICE_CODE_NAME = R.id.deviceCodename;
@@ -69,7 +69,7 @@ public class SlimOTA extends Fragment implements OnSharedPreferenceChangeListene
 
     SharedPreferences prefs;
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.slim_ota, container, false);
+        View view = inflater.inflate(R.layout.broken_ota, container, false);
         return view;
     }
 
@@ -156,11 +156,11 @@ public class SlimOTA extends Fragment implements OnSharedPreferenceChangeListene
             String strLine;
             while ((strLine = br.readLine()) != null) {
                 String[] line = strLine.split("=");
-                if (line[0].equalsIgnoreCase("ro.slim.device")) {
+                if (line[0].equalsIgnoreCase("ro.broken.device")) {
                     mStrCodename = line[1];
-                } else if (line[0].equalsIgnoreCase("slim.ota.version")) {
+                } else if (line[0].equalsIgnoreCase("broken.ota.version")) {
                     mStrCurVer = line[1];
-                } else if (line[0].equalsIgnoreCase("ro.slim.model")) {
+                } else if (line[0].equalsIgnoreCase("ro.broken.model")) {
                     mStrDevice = line[1];
                 } else if (line[0].equalsIgnoreCase("ro.modversion")) {
                     mStrCurFile = line[1];
@@ -206,15 +206,15 @@ public class SlimOTA extends Fragment implements OnSharedPreferenceChangeListene
     private void addShortCutFragment() {
         FragmentManager fragmentManager = this.getActivity().getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        SlimLinks slimLinks = new SlimLinks();
-        fragmentTransaction.replace(R.id.linksFragment, slimLinks);
+        BrokenLinks brokenLinks = new BrokenLinks();
+        fragmentTransaction.replace(R.id.linksFragment, brokenLinks);
         fragmentTransaction.commit();
     }
 
     private void setInitialUpdateInterval() {
         SharedPreferences prefs = this.getActivity().getSharedPreferences(LAST_INTERVAL, 0);
         long value = prefs.getLong(LAST_INTERVAL,0);
-        //set interval to 12h if user starts first time SlimOTA and it was not installed by system before
+        //set interval to 12h if user starts first time BrokenOTA and it was not installed by system before
         //yes ask lazy tarak....he has this case ;)
         if (value == 0) {
             UpdateListener.interval = AlarmManager.INTERVAL_HALF_DAY;

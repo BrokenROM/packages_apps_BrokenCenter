@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (C) 2012 Slimroms
+ * Copyright (C) 2012 Brokenroms
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
 -->
 
 <resources>
-    <!-- SlimOTA main strings -->
-    <string name="app_name">SlimCenter</string>
+    <!-- BrokenOTA main strings -->
+    <string name="app_name">BrokenCenter</string>
     <string name="menu_settings">Impostazioni</string>
     <string name="device_title">Dispositivo</string>
     <string name="device_name_title">Nome:</string>
@@ -30,15 +30,15 @@
     <string name="device_info_title">Informazioni dispositivo</string>
     <string name="up_to_date_title">Il tuo sistema è aggiornato</string>
     <string name="no_data_title">Nessuna connessione dati disponibile</string>
-    <string name="error_reading_title">Impossibile leggere le proprietà SlimOTA</string>
+    <string name="error_reading_title">Impossibile leggere le proprietà BrokenOTA</string>
     <string name="update_file_title">Aggiornamento:</string>
-    <string name="ota_title">SlimOTA</string>
+    <string name="ota_title">BrokenOTA</string>
     <string name="reboot">Tutto fatto! Riavvia il dispositivo adesso</string>
     <string name="reboot_ok">Riavvia adesso</string>
     <string name="reboot_cancel">Non riavviare</string>
 
-    <!-- SlimOTA settings -->
-    <string name="settings_title">Impostazioni SlimOTA</string>
+    <!-- BrokenOTA settings -->
+    <string name="settings_title">Impostazioni BrokenOTA</string>
     <string name="about_title">Info su</string>
     <string name="update_interval_title">Intervallo controllo aggiornamenti</string>
     <string name="update_interval_summary">Imposta l\'intervallo di controllo automatico degli aggiornamenti</string>
@@ -47,14 +47,14 @@
     <string name="update_interval_hour">Ogni ora</string>
     <string name="update_interval_disable">Disattivato</string>
 
-    <!-- SlimOTA error messages -->
+    <!-- BrokenOTA error messages -->
     <string name="system_prop_error">Impossibile leggere le proprietà di sistema</string>
     <string name="bad_url">Impossibile accedere all\'area download.\nContattare il device mantainer del dispositivo!</string>
     <string name="menu_update">Cerca aggiornamenti adesso</string>
     <string name="toast_text">In cerca di aggiornamenti, attendere.</string>
     <string name="toast_no_data_text">Nessuna connessione dati, attivarla prima di procedere.</string>
 
-    <!-- SlimOTA shortcut fragment -->
+    <!-- BrokenOTA shortcut fragment -->
     <string name="short_cut_release_title">ROM info</string>
     <string name="short_cut_changelog_title">Changelog</string>
     <string name="short_cut_changelog_summary_update_available">Importante! Leggi il changelog e le istruzioni di installazione attentamente.</string>
@@ -62,41 +62,41 @@
     <string name="short_cut_changelog_summary">Mostra changelog e istruzioni di installazione</string>
     <string name="short_cut_additional_title">Aggiuntive</string>
     <string name="short_cut_faq_title">FAQ</string>
-    <string name="short_cut_faq_summary">Visualizza Slim FAQ</string>
+    <string name="short_cut_faq_summary">Visualizza Broken FAQ</string>
     <string name="short_cut_news_title">News</string>
-    <string name="short_cut_news_summary">Leggi le ultime notizie sulla Slim</string>
-    <string name="short_cut_download_title">Download Slim ROM</string>
-    <string name="short_cut_download_uptodate_summary">Download Slim ROM</string>
+    <string name="short_cut_news_summary">Leggi le ultime notizie sulla Broken</string>
+    <string name="short_cut_download_title">Download Broken ROM</string>
+    <string name="short_cut_download_uptodate_summary">Download Broken ROM</string>
     <string name="short_cut_download_gapps_title">Download GApps</string>
     <string name="short_cut_download_gapps_summary">Download del pacchetto GApps</string>
 
-    <string name="download_url">http://otaslim.slimroms.net/download.htm</string>
-    <string name="changelog_url">http://otaslim.slimroms.net/changelog.htm</string>
-    <string name="faq_url">http://otaslim.slimroms.net/faq.htm</string>
-    <string name="news_url">http://otaslim.slimroms.net/news.htm</string>
-    <string name="gapps_url">http://otaslim.slimroms.net/gapps.htm</string>
-    <string name="gapps_url_kitkat">http://otaslim.slimroms.net/gapps_kitkat.htm</string>
+    <string name="download_url">http://otabroken.BrokenOs.net/download.htm</string>
+    <string name="changelog_url">http://otabroken.BrokenOs.net/changelog.htm</string>
+    <string name="faq_url">http://otabroken.BrokenOs.net/faq.htm</string>
+    <string name="news_url">http://otabroken.BrokenOs.net/news.htm</string>
+    <string name="gapps_url">http://otabroken.BrokenOs.net/gapps.htm</string>
+    <string name="gapps_url_kitkat">http://otabroken.BrokenOs.net/gapps_kitkat.htm</string>
 
-    <!-- SlimOTA update checker -->
-    <string name="xml_url">http://otaslim.slimroms.net/ota.xml</string>
-    <string name="xml_url_kitkat">http://otaslim.slimroms.net/ota_kitkat.xml</string>
-    <string name="notification_message">Aggiornamento Slim ROM disponibile</string>
+    <!-- BrokenOTA update checker -->
+    <string name="xml_url">http://otabroken.BrokenOs.net/ota.xml</string>
+    <string name="xml_url_kitkat">http://otabroken.BrokenOs.net/ota_kitkat.xml</string>
+    <string name="notification_message">Aggiornamento Broken ROM disponibile</string>
 
-    <!-- SlimOTA About -->
-    <string name="about_home_url"><a href="http://www.slimroms.net">www.slimroms.net</a></string>
-    <string name="about_slim_ota">SlimCenter ti permette di gestire facilmente\n la tua ROM!</string>
-    <string name="about_copyright">\u00A9 Copyright Slimroms 2014</string>
-    <string name="about_version">SlimCenter 1.1</string>
-    <string name="about_contact"><a href="http://otaslim.slimroms.net/contact.htm">Contattaci</a></string>
+    <!-- BrokenOTA About -->
+    <string name="about_home_url"><a href="http://www.BrokenOs.net">www.BrokenOs.net</a></string>
+    <string name="about_broken_ota">BrokenCenter ti permette di gestire facilmente\n la tua ROM!</string>
+    <string name="about_copyright">\u00A9 Copyright Brokenroms 2014</string>
+    <string name="about_version">BrokenCenter 1.1</string>
+    <string name="about_contact"><a href="http://otabroken.BrokenOs.net/contact.htm">Contattaci</a></string>
     <string name="about_contact_text">Dicci cosa pensi o segnalaci un bug o problema</string>
     <string name="about_license">License Open source</string>
-    <string name="about_license_text">App SlimCenter:</string>
-    <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
-    <string name="menu_slimsizer">SlimSizer</string>
+    <string name="about_license_text">App BrokenCenter:</string>
+    <string name="about_license_url"><a href="http://otabroken.BrokenOs.net/license.htm">gpl(2)</a></string>
+    <string name="menu_brokensizer">BrokenSizer</string>
 
-    <!-- SlimSizer  -->
+    <!-- BrokenSizer  -->
     <string name="listsystem">lista</string>
-    <string name="sizer_title">SlimSizer</string>
+    <string name="sizer_title">BrokenSizer</string>
     <string name="caution">Attenzione!</string>
     <string name="sizer_message_startup">Questo tool ti permette di eliminare apps di sistema. Usalo con cautela e assicurati di non eliminare apps necessarie.</string>
     <string name="cancel">Annulla</string>
@@ -116,22 +116,22 @@
     <string name="sizer_message_noselect">Nessuna selezione.</string>
 
     <!-- About -->
-    <string name="aboutslim_title">SlimRoms</string>
+    <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Sviluppatori</string>
-    <string name="slim_website_title">Sito web Slim</string>
-    <string name="slim_website_summary">www.slimroms.net\nTrova qui le ultime news</string>
-    <string name="slim_irc_title">SlimIRC</string>
-    <string name="slim_irc_summary">Partecipa al nostro canale IRC!\nParla con il team e altri utenti</string>
-    <string name="slim_donate_title">Dona</string>
-    <string name="slim_donate_summary">Dona al Team SlimRoms</string>
-    <string name="slim_source_title">Sorgenti Slim</string>
-    <string name="slim_source_summary">Le SlimRoms sono totalmente open source.\nSorgenti su github.com/SlimRoms</string>
-    <string name="no_irc">App SlimIRC non trovata.</string>
-    <string name="no_irc_unofficial">SlimIRC non è disponibile sulle builds non ufficiali.</string>
-    <string name="center_summary"><b>SlimCenter</b> fornisce tools e informazioni per migliorare la tua esperienza con le SlimRoms. Aggiorna automaticamente alle nuove versioni della ROM con <b>SlimOTA</b> e rimuovi le apps di sistema non necessarie con <b>SlimSizer</b>.</string>
-    <string name="slim_bugreport">Bugreport</string>
-    <string name="slim_bugreport_summary">Crea un report completo dei bug.</string>
-    <string name="report_infosuccess">Report di sistema creato, forniscilo al Team SlimRoms allegandolo al tuo Bugreport! Puoi trovare il file zip sulla tua SD-Card nella cartella \"Slim\".</string>
+    <string name="broken_website_title">Sito web Broken</string>
+    <string name="broken_website_summary">www.BrokenOs.net\nTrova qui le ultime news</string>
+    <string name="broken_irc_title">BrokenIRC</string>
+    <string name="broken_irc_summary">Partecipa al nostro canale IRC!\nParla con il team e altri utenti</string>
+    <string name="broken_donate_title">Dona</string>
+    <string name="broken_donate_summary">Dona al Team BrokenOs</string>
+    <string name="broken_source_title">Sorgenti Broken</string>
+    <string name="broken_source_summary">Le BrokenOs sono totalmente open source.\nSorgenti su github.com/BrokenOs</string>
+    <string name="no_irc">App BrokenIRC non trovata.</string>
+    <string name="no_irc_unofficial">BrokenIRC non è disponibile sulle builds non ufficiali.</string>
+    <string name="center_summary"><b>BrokenCenter</b> fornisce tools e informazioni per migliorare la tua esperienza con le BrokenOs. Aggiorna automaticamente alle nuove versioni della ROM con <b>BrokenOTA</b> e rimuovi le apps di sistema non necessarie con <b>BrokenSizer</b>.</string>
+    <string name="broken_bugreport">Bugreport</string>
+    <string name="broken_bugreport_summary">Crea un report completo dei bug.</string>
+    <string name="report_infosuccess">Report di sistema creato, forniscilo al Team BrokenOs allegandolo al tuo Bugreport! Puoi trovare il file zip sulla tua SD-Card nella cartella \"Broken\".</string>
     <string name="report_infofail">Creazione del bugreport fallita, riprovare.</string>
 
 </resources>

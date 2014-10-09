@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (C) 2012 Slimroms
+ * Copyright (C) 2012 Brokenroms
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 -->
 
 <resources>
-    <string name="app_name">Slim centras</string>
+    <string name="app_name">Broken centras</string>
     <string name="menu_settings">Nustatymai</string>
     <string name="device_title">Prietaisas</string>
     <string name="device_name_title">Pavadinimas:</string>
@@ -29,9 +29,9 @@
     <string name="device_info_title">Įrenginio informacija</string>
     <string name="up_to_date_title">Jūsų sistema yra naujausios versijos</string>
     <string name="no_data_title">Nėra galimo duomenų ryšio</string>
-    <string name="error_reading_title">Nepavyksta matyti SlimOTA ypatybių</string>
+    <string name="error_reading_title">Nepavyksta matyti BrokenOTA ypatybių</string>
     <string name="update_file_title">Atnaujinimas:</string>
-    <string name="settings_title">SlimOTA nustatymai</string>
+    <string name="settings_title">BrokenOTA nustatymai</string>
     <string name="about_title">Apie</string>
     <string name="update_interval_title">Tikrinti ar yra atnaujinimų kas</string>
     <string name="update_interval_summary">Nustatyti automatinį atnaujinimų tikrinimo intervalą</string>
@@ -40,42 +40,42 @@
     <string name="update_interval_hour">Kas valandą</string>
     <string name="update_interval_disable">Išjungti</string>
     <string name="system_prop_error">Nepavyksta matyti sistemos ypatybių</string>
-    <string name="bad_url">Nepavyksta prieiti prie atsisiuntimo vietos.\nPrašome pranešti savo prietaiso SlimBean prižiūrėtojui!</string>
+    <string name="bad_url">Nepavyksta prieiti prie atsisiuntimo vietos.\nPrašome pranešti savo prietaiso BrokenBean prižiūrėtojui!</string>
     <string name="menu_update">Ieškoti atnaujinimų dabar</string>
     <string name="toast_text">Ieškoma ROM atnaujinimų...</string>
     <string name="toast_no_data_text">Nėra interneto ryšio. Prašome jį įjungti</string>
     <string name="short_cut_release_title">Susiję su ROM</string>
     <string name="short_cut_changelog_title">Pakeitimų sąrašas</string>
     <string name="short_cut_changelog_summary_update_available">Svarbu!!! Įdėmiai perskaitykite pakeitimų sąrašą ir diegimo instrukcijas</string>
-    <string name="short_cut_download_summary_update_available">Galimas SlimBean atnaujinimas. Atsisiųsti čia!</string>
+    <string name="short_cut_download_summary_update_available">Galimas BrokenBean atnaujinimas. Atsisiųsti čia!</string>
     <string name="short_cut_changelog_summary">Rodyti pakeitimų sąrašus ir diegimo instrukcijas</string>
     <string name="short_cut_additional_title">Papildomas</string>
     <string name="short_cut_faq_title">DUK</string>
-    <string name="short_cut_faq_summary">Rodyti Slim DUK</string>
+    <string name="short_cut_faq_summary">Rodyti Broken DUK</string>
     <string name="short_cut_news_title">Naujienos</string>
-    <string name="short_cut_news_summary">Skaityti Slim naujienas</string>
-    <string name="short_cut_download_title">Atsisiųsti SlimBean</string>
-    <string name="short_cut_download_uptodate_summary">Atsisiųsti SlimBean ROM</string>
+    <string name="short_cut_news_summary">Skaityti Broken naujienas</string>
+    <string name="short_cut_download_title">Atsisiųsti BrokenBean</string>
+    <string name="short_cut_download_uptodate_summary">Atsisiųsti BrokenBean ROM</string>
     <string name="short_cut_download_gapps_title">Atsisiųsti Google programėles</string>
-    <string name="short_cut_download_gapps_summary">Atsisiųsti SlimBean papildinių paketus</string>
-    <string name="changelog_url">http://otaslim.slimroms.net/changelog.htm</string>
-    <string name="faq_url">http://otaslim.slimroms.net/faq.htm</string>
-    <string name="news_url">http://otaslim.slimroms.net/news.htm</string>
-    <string name="gapps_url">http://otaslim.slimroms.net/gapps.htm</string>
-    <string name="xml_url">http://otaslim.slimroms.net/ota.xml</string>
-    <string name="notification_message">Galimas SlimBean ROM atnaujinimas</string>
-    <string name="about_home_url"><a href="http://www.slimroms.net">www.slimroms.net</a></string>
-    <string name="about_slim_ota">SlimOTA leidžia jums visada turėti \nnaujausią programinę įrangą</string>
-    <string name="about_copyright">\u00A9 Copyright Slimroms 2013</string>
-    <string name="about_version">SlimOTA 1.0</string>
-    <string name="about_contact"><a href="http://otaslim.slimroms.net/contact.htm">Contact us</a></string>
+    <string name="short_cut_download_gapps_summary">Atsisiųsti BrokenBean papildinių paketus</string>
+    <string name="changelog_url">http://otabroken.BrokenOs.net/changelog.htm</string>
+    <string name="faq_url">http://otabroken.BrokenOs.net/faq.htm</string>
+    <string name="news_url">http://otabroken.BrokenOs.net/news.htm</string>
+    <string name="gapps_url">http://otabroken.BrokenOs.net/gapps.htm</string>
+    <string name="xml_url">http://otabroken.BrokenOs.net/ota.xml</string>
+    <string name="notification_message">Galimas BrokenBean ROM atnaujinimas</string>
+    <string name="about_home_url"><a href="http://www.BrokenOs.net">www.BrokenOs.net</a></string>
+    <string name="about_broken_ota">BrokenOTA leidžia jums visada turėti \nnaujausią programinę įrangą</string>
+    <string name="about_copyright">\u00A9 Copyright Brokenroms 2013</string>
+    <string name="about_version">BrokenOTA 1.0</string>
+    <string name="about_contact"><a href="http://otabroken.BrokenOs.net/contact.htm">Contact us</a></string>
     <string name="about_contact_text">Rašykite atsiliepimus \narba praneškite apie klaidas</string>
     <string name="about_license">Atvirojo kodo licenzijos</string>
-    <string name="about_license_text">SlimOTA programėlė:</string>
-    <string name="about_license_url"><a href="http://otaslim.slimroms.net/license.htm">gpl(2)</a></string>
-    <string name="menu_slimsizer">Slim dydis</string>
+    <string name="about_license_text">BrokenOTA programėlė:</string>
+    <string name="about_license_url"><a href="http://otabroken.BrokenOs.net/license.htm">gpl(2)</a></string>
+    <string name="menu_brokensizer">Broken dydis</string>
     <string name="listsystem">sąrašas</string>
-    <string name="sizer_title">Slim dydis</string>
+    <string name="sizer_title">Broken dydis</string>
     <string name="caution">Atsargiai!</string>
     <string name="sizer_message_startup">Šis įrankis leidžia jums ištrinti sistemines programas. Naudokite atsargiai ir trinkite tik tas programas, dėl kurių esate tikri.</string>
     <string name="cancel">Atšaukti</string>

@@ -2,23 +2,23 @@
 <!--
  *=========================================================================
  *
- *  PROJECT:  SlimRoms
- *            Team Slimroms (http://www.slimroms.net)
+ *  PROJECT:  BrokenOs
+ *            Team Brokenroms (http://www.BrokenOs.net)
  *
- *  COPYRIGHT Copyright (C) 2013 Slimroms http://www.slimroms.net
+ *  COPYRIGHT Copyright (C) 2013 Brokenroms http://www.BrokenOs.net
  *            All rights reserved
  *
  *  LICENSE   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  *
  *  AUTHORS:     fronti90, mnazim, tchaari, kufikugel
- *  DESCRIPTION: SlimCenter: manage your ROM
+ *  DESCRIPTION: BrokenCenter: manage your ROM
  *
  *=========================================================================
  *
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.slim.ota"
+    package="com.broken.ota"
     android:versionCode="1"
     android:versionName="1.1" >
 
@@ -35,12 +35,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher_slimota"
+        android:icon="@mipmap/ic_launcher_brokenota"
         android:label="@string/app_name"
         android:launchMode="singleTask"
-        android:theme="@style/SlimOTA" >
+        android:theme="@style/BrokenOTA" >
         <activity
-            android:name="com.slim.center.SlimCenter"
+            android:name="com.broken.center.BrokenCenter"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name" >
             <intent-filter>
@@ -48,22 +48,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.slim.ota.SlimOTA"
+            android:name="com.broken.ota.BrokenOTA"
             android:label="@string/ota_title"
-            android:parentActivityName="com.slim.center.SlimCenter" >
+            android:parentActivityName="com.broken.center.BrokenCenter" >
         </activity>
         <activity
-            android:name="com.slim.sizer.SlimSizer"
+            android:name="com.broken.sizer.BrokenSizer"
             android:label="@string/sizer_title"
-            android:parentActivityName="com.slim.center.SlimCenter" >
+            android:parentActivityName="com.broken.center.BrokenCenter" >
         </activity>
         <activity
-            android:name="com.slim.center.AboutSlim"
-            android:label="@string/aboutslim_title"
-            android:parentActivityName="com.slim.center.SlimCenter" >
+            android:name="com.broken.center.AboutBroken"
+            android:label="@string/aboutbroken_title"
+            android:parentActivityName="com.broken.center.BrokenCenter" >
         </activity>
 
-        <service android:name="com.slim.ota.updater.UpdateService" />
+        <service android:name="com.broken.ota.updater.UpdateService" />
 
         <receiver android:name="com.commonsware.cwac.wakeful.AlarmReceiver" >
             <intent-filter>
@@ -83,12 +83,12 @@
         </receiver>
 
         <activity
-            android:name="com.slim.ota.settings.Settings"
-            android:parentActivityName="com.slim.ota.SlimOTA">
+            android:name="com.broken.ota.settings.Settings"
+            android:parentActivityName="com.broken.ota.BrokenOTA">
         </activity>
         <activity
-            android:name="com.slim.ota.settings.About"
-            android:parentActivityName="com.slim.center.SlimCenter">
+            android:name="com.broken.ota.settings.About"
+            android:parentActivityName="com.broken.center.BrokenCenter">
         </activity>
     </application>
 

@@ -1,20 +1,20 @@
 /*=========================================================================
  *
- *  PROJECT:  SlimRoms
- *            Team Slimroms (http://www.slimroms.net)
+ *  PROJECT:  BrokenOs
+ *            Team Brokenroms (http://www.BrokenOs.net)
  *
- *  COPYRIGHT Copyright (C) 2013 Slimroms http://www.slimroms.net
+ *  COPYRIGHT Copyright (C) 2013 Brokenroms http://www.BrokenOs.net
  *            All rights reserved
  *
  *  LICENSE   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  *
  *  AUTHORS:     fronti90, mnazim, tchaari, kufikugel
- *  DESCRIPTION: SlimOTA keeps our rom up to date
+ *  DESCRIPTION: BrokenOTA keeps our rom up to date
  *
  *=========================================================================
  */
 
-package com.slim.ota.updater;
+package com.broken.ota.updater;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -42,8 +42,8 @@ import org.xmlpull.v1.XmlPullParserFactory;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-import com.slim.center.SlimCenter;
-import com.slim.ota.R;
+import com.broken.center.BrokenCenter;
+import com.broken.ota.R;
 
 public class UpdateChecker extends AsyncTask<Context, Integer, String> {
     private static final String TAG = "UpdateChecker";
@@ -53,7 +53,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
     private static final int MSG_SET_PROGRESS = 2;
     private static final int MSG_CLOSE_DIALOG = 3;
 
-    private String strDevice, slimCurVer;
+    private String strDevice, brokenCurVer;
     private Context mContext;
     private int mId = 1000001;
 
@@ -104,10 +104,10 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
             String strLine;
             while ((strLine = br.readLine()) != null) {
                 String[] line = strLine.split("=");
-                if (line[0].equalsIgnoreCase("ro.slim.device")) {
+                if (line[0].equalsIgnoreCase("ro.broken.device")) {
                     strDevice = line[1].trim();
-                } else if (line[0].equalsIgnoreCase("slim.ota.version")) {
-                    slimCurVer = line[1].trim();
+                } else if (line[0].equalsIgnoreCase("broken.ota.version")) {
+                    brokenCurVer = line[1].trim();
                 }
             }
             br.close();
@@ -120,7 +120,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
     protected String doInBackground(Context... arg) {
         mContext = arg[0];
         Message msg;
-        if (mContext != null && mContext.toString().contains("SlimCenter")) {
+        if (mContext != null && mContext.toString().contains("BrokenCenter")) {
             msg = mHandler.obtainMessage(MSG_CREATE_DIALOG);
             mHandler.sendMessage(msg);
         }
@@ -128,12 +128,12 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
         if (!connectivityAvailable(mContext)) return "connectivityNotAvailable";
         try {
             getDeviceTypeAndVersion();
-            if (mNoLog == false) Log.d(TAG, "strDevice="+strDevice+ "   slimCurVer="+slimCurVer);
-            if (strDevice == null || slimCurVer == null) return null;
+            if (mNoLog == false) Log.d(TAG, "strDevice="+strDevice+ "   brokenCurVer="+brokenCurVer);
+            if (strDevice == null || brokenCurVer == null) return null;
             String newUpdateUrl = null;
             String newFileName = null;
             URL url = null;
-            if (slimCurVer != null && slimCurVer.contains("4.4")) {
+            if (brokenCurVer != null && brokenCurVer.contains("4.4")) {
                 url = new URL(mContext.getString(R.string.xml_url_kitkat));
             } else {
                 url = new URL(mContext.getString(R.string.xml_url));
@@ -169,7 +169,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
                     try {
                         versionOnServer = tempFileName.split("\\-")[2];
                         putDataInprefs(mContext, "Filename",versionOnServer);
-                        if (versionOnServer.compareToIgnoreCase(slimCurVer)>0) newFileName = tempFileName;
+                        if (versionOnServer.compareToIgnoreCase(brokenCurVer)>0) newFileName = tempFileName;
                     } catch (Exception invalidFileName) {
                         Log.e(TAG, "File Name from server is invalid : "+tempFileName);
                     }
@@ -211,7 +211,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
     protected void onPostExecute(String result) {
         super.onPostExecute(result);
         if (mNoLog == false) Log.d("\r\n"+TAG, "result= "+result+"\n context="+mContext.toString()+"\r\n");
-        if (mContext != null && mContext.toString().contains("SlimCenter")) {
+        if (mContext != null && mContext.toString().contains("BrokenCenter")) {
             Message msg = mHandler.obtainMessage(MSG_CLOSE_DIALOG);
             mHandler.sendMessage(msg);
         } else if (result == null) {
@@ -229,10 +229,10 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
         Notification.Builder mBuilder = new Notification.Builder(mContext)
             .setContentTitle(mContext.getString(R.string.title_update))
             .setContentText(mContext.getString(R.string.notification_message))
-            .setSmallIcon(R.drawable.ic_notification_slimota)
-            .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), R.drawable.ic_slimota));
+            .setSmallIcon(R.drawable.ic_notification_brokenota)
+            .setLargeIcon(BitmapFactory.decodeResource(mContext.getResources(), R.drawable.ic_brokenota));
 
-        Intent intent = new Intent(mContext, SlimCenter.class);
+        Intent intent = new Intent(mContext, BrokenCenter.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         final PendingIntent pendingIntent = PendingIntent.getActivity(mContext,
                     0, intent, PendingIntent.FLAG_ONE_SHOT);
@@ -245,7 +245,7 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
     }
 
     private void showInvalidLink() {
-        if (mContext != null && mContext.toString().contains("SlimCenter")) {
+        if (mContext != null && mContext.toString().contains("BrokenCenter")) {
             Message msg = mHandler.obtainMessage(MSG_DISPLAY_MESSAGE, mContext.getString(R.string.bad_url));
             mHandler.sendMessage(msg);
         } else {

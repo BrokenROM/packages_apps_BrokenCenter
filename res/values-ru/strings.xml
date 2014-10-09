@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (C) 2012 Slimroms
+ * Copyright (C) 2012 Brokenroms
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 -->
 
 <resources>
-    <string name="app_name">Slim-Центр</string>
+    <string name="app_name">Broken-Центр</string>
     <string name="menu_settings">Настройки</string>
     <string name="device_title">Устройство</string>
     <string name="device_name_title">Имя:</string>
@@ -28,10 +28,10 @@
     <string name="device_info_title">Информация об устройства</string>
     <string name="up_to_date_title">У вас установлена самая новая версия</string>
     <string name="no_data_title">Нет подключения к сети</string>
-    <string name="error_reading_title">Невозможно прочесть данные SlimOTA</string>
+    <string name="error_reading_title">Невозможно прочесть данные BrokenOTA</string>
     <string name="update_file_title">Обновить:</string>
-    <string name="settings_title">Настройки SlimOTA</string>
-    <string name="about_title">Про SlimOTA</string>
+    <string name="settings_title">Настройки BrokenOTA</string>
+    <string name="about_title">Про BrokenOTA</string>
     <string name="update_interval_title">Интервал автопроверки обновлений</string>
     <string name="update_interval_summary">Задать интервал автопроверки обновлений</string>
     <string name="update_interval_day">Каждые 24 часа</string>
@@ -39,31 +39,31 @@
     <string name="update_interval_hour">Каждый час</string>
     <string name="update_interval_disable">Отключить</string>
     <string name="system_prop_error">Невозможно прочесть системные свойства</string>
-    <string name="bad_url">Невозможно получить доступ к скачиванию.\nПожалуйста, свяжитесь с куратором Slim для вашего устройства!</string>
+    <string name="bad_url">Невозможно получить доступ к скачиванию.\nПожалуйста, свяжитесь с куратором Broken для вашего устройства!</string>
     <string name="menu_update">Поиск обновлений</string>
     <string name="toast_text">Поиск обновлений прошивки, пожалуйста, подождите</string>
     <string name="toast_no_data_text">Нет подключения к сети. Пожалуйста, подключитесь</string>
     <string name="short_cut_release_title">Прошивка</string>
     <string name="short_cut_changelog_title">Список изменений</string>
     <string name="short_cut_changelog_summary_update_available">Важно!!! Внимательно прочтите списолк изменений и инструкций по установке</string>
-    <string name="short_cut_download_summary_update_available">Найдено обновление прошиски SlimKat. Скачать здесь!</string>
+    <string name="short_cut_download_summary_update_available">Найдено обновление прошиски BrokenOs. Скачать здесь!</string>
     <string name="short_cut_changelog_summary">Показывать список обновлений и инструкции по установке</string>
     <string name="short_cut_additional_title">Дополнительно</string>
     <string name="short_cut_faq_title">ЧаВО</string>
-    <string name="short_cut_faq_summary">Показать FAQ по Slim</string>
+    <string name="short_cut_faq_summary">Показать FAQ по Broken</string>
     <string name="short_cut_news_title">Новости</string>
-    <string name="short_cut_news_summary">Прочесть о последних новостях в Slim</string>
-    <string name="short_cut_download_title">Скачать SlimKat</string>
-    <string name="short_cut_download_uptodate_summary">Скачать прошивку SlimKat</string>
+    <string name="short_cut_news_summary">Прочесть о последних новостях в Broken</string>
+    <string name="short_cut_download_title">Скачать BrokenOs</string>
+    <string name="short_cut_download_uptodate_summary">Скачать прошивку BrokenOs</string>
     <string name="short_cut_download_gapps_title">Скачать Google Apps</string>
-    <string name="short_cut_download_gapps_summary">Скачать дополнения к прошивке SlimKat</string>
-    <string name="notification_message">Доступно обновление прошивки SlimKat</string>
-    <string name="about_slim_ota">Slim-Центр позволяет легко изменять\n свою прошивку!</string>
-    <string name="about_version">Slim-Центр 1.1</string>
-    <string name="about_contact"><a href="http://otaslim.slimroms.net/contact.htm">Связаться с нами</a></string>
+    <string name="short_cut_download_gapps_summary">Скачать дополнения к прошивке BrokenOs</string>
+    <string name="notification_message">Доступно обновление прошивки BrokenOs</string>
+    <string name="about_broken_ota">Broken-Центр позволяет легко изменять\n свою прошивку!</string>
+    <string name="about_version">Broken-Центр 1.1</string>
+    <string name="about_contact"><a href="http://otabroken.BrokenOs.net/contact.htm">Связаться с нами</a></string>
     <string name="about_contact_text">Расскажите нам свои впечатления\nили дайте знать о баге или проблеме</string>
     <string name="about_license">Открытые лицензии</string>
-    <string name="about_license_text">Slim-Центр:</string>
+    <string name="about_license_text">Broken-Центр:</string>
     <string name="listsystem">список</string>
     <string name="caution">Внимание!</string>
     <string name="sizer_message_startup">Эта программа разрешает удалять системные приложения. Используйте с осторожностью и удаляйте только то, что можно удалить без последствий.</string>
@@ -82,25 +82,25 @@
     <string name="sizer_message_filesuccess">Профиль создан.</string>
     <string name="sizer_message_filefail">Невозможно создать профиль.</string>
     <string name="sizer_message_noselect">Ничего не выбрано.</string>
-    <string name="ota_title">SlimOTA</string>
+    <string name="ota_title">BrokenOTA</string>
 
     <!-- About -->
-    <string name="aboutslim_title">SlimRoms</string>
+    <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Разработчик</string>
-    <string name="slim_website_title">Страница Slim</string>
-    <string name="slim_source_title">Исходники Slim</string>
-    <string name="slim_website_summary">www.slimroms.net\nВсе последние новости про Slim здесь</string>
-    <string name="slim_source_summary">Slim полностью открыт.\nИсходники на github.com/SlimRoms</string>
-    <string name="slim_donate_title">Пожертвования</string>
-    <string name="slim_donate_summary">Пожертвовать команде SlimRoms</string>
-    <string name="slim_irc_title">SlimIRC</string>
-    <string name="slim_irc_summary">Заходите в нашу IRC!\nОбщайтесь с командой Slim и другими пользователями</string>
-    <string name="no_irc">Приложение SlimIRC не найдено.</string>
-    <string name="no_irc_unofficial">SlimIRC отсутствует в неофициальных сборках.</string>
-    <string name="center_summary"><b>Slim-Центр</b> включает утилиты и данные, чтобы сделать работу с прошивкой SlimRoms еще лучше. В числе возможностей: автоматическое обновление до последней версии ROM с помощью <b>SlimOTA</b> и удаление ненужных системных приложений через <b>SlimSizer</b>.</string>
-    <string name="slim_bugreport">Сообщить об ошибке</string>
-    <string name="slim_bugreport_summary">Создать отчет об ошибке.</string>
-    <string name="report_infosuccess">Создан системный отчет, отправьте его команде SlimRoms, прикрепив к отчету об ошибке. Zip-архив с системным отчетом находится на SD-карте в директории \"Slim\".</string>
+    <string name="broken_website_title">Страница Broken</string>
+    <string name="broken_source_title">Исходники Broken</string>
+    <string name="broken_website_summary">www.BrokenOs.net\nВсе последние новости про Broken здесь</string>
+    <string name="broken_source_summary">Broken полностью открыт.\nИсходники на github.com/BrokenOs</string>
+    <string name="broken_donate_title">Пожертвования</string>
+    <string name="broken_donate_summary">Пожертвовать команде BrokenOs</string>
+    <string name="broken_irc_title">BrokenIRC</string>
+    <string name="broken_irc_summary">Заходите в нашу IRC!\nОбщайтесь с командой Broken и другими пользователями</string>
+    <string name="no_irc">Приложение BrokenIRC не найдено.</string>
+    <string name="no_irc_unofficial">BrokenIRC отсутствует в неофициальных сборках.</string>
+    <string name="center_summary"><b>Broken-Центр</b> включает утилиты и данные, чтобы сделать работу с прошивкой BrokenOs еще лучше. В числе возможностей: автоматическое обновление до последней версии ROM с помощью <b>BrokenOTA</b> и удаление ненужных системных приложений через <b>BrokenSizer</b>.</string>
+    <string name="broken_bugreport">Сообщить об ошибке</string>
+    <string name="broken_bugreport_summary">Создать отчет об ошибке.</string>
+    <string name="report_infosuccess">Создан системный отчет, отправьте его команде BrokenOs, прикрепив к отчету об ошибке. Zip-архив с системным отчетом находится на SD-карте в директории \"Broken\".</string>
     <string name="report_infofail">Ошибка создания отчета об ошибке, попробуйте еще раз.</string>
 
     <string name="reboot">Готово! Теперь перезагрузите устройство.</string>

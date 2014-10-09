@@ -1,22 +1,22 @@
 /*=========================================================================
  *
- *  PROJECT:  SlimRoms
- *            Team Slimroms (http://www.slimroms.net)
+ *  PROJECT:  BrokenOs
+ *            Team Brokenroms (http://www.BrokenOs.net)
  *
- *  COPYRIGHT Copyright (C) 2013 Slimroms http://www.slimroms.net
+ *  COPYRIGHT Copyright (C) 2013 Brokenroms http://www.BrokenOs.net
  *            All rights reserved
  *
  *  LICENSE   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
  *
  *  AUTHORS:     fronti90, mnazim, tchaari, kufikugel, blk_jack
- *  DESCRIPTION: SlimOTA keeps our rom up to date
+ *  DESCRIPTION: BrokenOTA keeps our rom up to date
  *
  *=========================================================================
  */
 
-package com.slim.ota;
+package com.broken.ota;
 
-import com.slim.ota.R;
+import com.broken.ota.R;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -36,7 +36,7 @@ import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 
-public class SlimLinks extends Fragment {
+public class BrokenLinks extends Fragment {
 
     private LinearLayout mChangelog;
     private LinearLayout mDownload;
@@ -53,7 +53,7 @@ public class SlimLinks extends Fragment {
     private String mStrCurFile;
 
     public View onCreateView (LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.slim_ota_links, container, false);
+        View view = inflater.inflate(R.layout.broken_ota_links, container, false);
         return view;
     }
 
