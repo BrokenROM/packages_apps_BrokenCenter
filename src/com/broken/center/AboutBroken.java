@@ -84,11 +84,11 @@ public class AboutBroken extends Fragment{
         @Override
         public void onClick(View v) {
             if (v == website) {
-                launchUrl("http://BrokenOs.net/");
+                launchUrl("http://brokenos.wix.com/main");
             } else if (v == source) {
                 launchUrl("http://github.com/BrokenOs");
             } else if (v == donate) {
-                launchUrl("http://brokenos.wix.com/main/index.php/donations");
+                launchUrl("http://brokenos.wix.com/main#!donations/c1u32");
             } else if (v == irc) {
                 if (isCallable(IRC_INTENT)){
                     startActivity(IRC_INTENT);
