@@ -91,7 +91,7 @@
     <string name="about_contact_text">Join Our Community</string>
     <string name="about_license">Terms of Use</string>
     <string name="about_license_text">BrokenCenter app:</string>
-    <string name="about_license_url"><a href="http://brokenos.wix.com/main#!terms-of-use/c23t9">gpl(2)</a></string>
+    <string name="about_license_url"><a href="http://brokenos.wix.com/main#!terms-of-use/c23t9">Terms of Use</a></string>
     <string name="menu_brokensizer">BrokenSizer</string>
 
     <!-- BrokenSizer  -->
