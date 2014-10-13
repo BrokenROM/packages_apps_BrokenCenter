@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (C) 2012 Brokenroms
+ * Copyright (C) 2012 BrokenOs
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -63,10 +63,10 @@
     <string name="news_url">http://otabroken.BrokenOs.net/news.htm</string>
     <string name="gapps_url">http://otabroken.BrokenOs.net/gapps.htm</string>
     <string name="xml_url">http://otabroken.BrokenOs.net/ota.xml</string>
-    <string name="notification_message">Actualizare BrokenBean ROM disponibilă</string>
-    <string name="about_home_url"><a href="http://www.BrokenOs.net">www.BrokenOs.net</a></string>
+    <string name="notification_message">Actualizare BrokenOs ROM disponibilă</string>
+    <string name="about_home_url"><a href="http://brokenos.wix.com/main">www.BrokenOs.com</a></string>
     <string name="about_broken_ota">BrokenOTA te ţine întotdeauna actualizat\nîn legătura cu rom şi gapps</string>
-    <string name="about_copyright">\u00A9 Drepturi de autor Brokenroms 2013</string>
+    <string name="about_copyright">\u00A9 Drepturi de autor BrokenOs 2014</string>
     <string name="about_version">BrokenOTA 1.0</string>
     <string name="about_contact"><a href="http://otabroken.BrokenOs.net/contact.htm">Contactați-ne</a></string>
     <string name="about_contact_text">Spuneți-ne ce credeți\nsau anunţaţi-ne despre un bug sau o problema</string>

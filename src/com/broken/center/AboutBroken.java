@@ -1,9 +1,9 @@
 /*=========================================================================
  *
  *  PROJECT:  BrokenOs
- *            Team Brokenroms (http://www.BrokenOs.net)
- *
- *  COPYRIGHT Copyright (C) 2013 Brokenroms http://www.BrokenOs.net
+ *            Team BrokenOs (http://brokenos.wix.com/main)
+ *            CREDIT GOES TO SLIMROM
+ *  COPYRIGHT Copyright (C) 2014 BrokenOs http://brokenos.wix.com/main
  *            All rights reserved
  *
  *  LICENSE   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
@@ -84,11 +84,11 @@ public class AboutBroken extends Fragment{
         @Override
         public void onClick(View v) {
             if (v == website) {
-                launchUrl("http://BrokenOs.net/");
+                launchUrl("http://brokenos.wix.com/main");
             } else if (v == source) {
                 launchUrl("http://github.com/BrokenOs");
             } else if (v == donate) {
-                launchUrl("http://www.BrokenOs.net/index.php/donations");
+                launchUrl("http://brokenos.wix.com/main#!donations/c1u32");
             } else if (v == irc) {
                 if (isCallable(IRC_INTENT)){
                     startActivity(IRC_INTENT);
