@@ -72,26 +72,26 @@
 
     <string name="download_url">http://otabroken.brokenos.net/download.htm</string>
     <string name="changelog_url">http://otabroken.brokenos.net/changelog.htm</string>
-    <string name="faq_url">http://otabroken.BrokenOs.net/faq.htm</string>
-    <string name="news_url">http://otabroken.BrokenOs.net/news.htm</string>
-    <string name="gapps_url">http://otabroken.brokenos.net/gapps.htm</string>
-    <string name="gapps_url_kitkat">http://otabroken.brokenos.net/gapps_kitkat.htm</string>
+    <string name="faq_url">http://brokenos.wix.com/main#!faq/c1tbf</string>
+    <string name="news_url">http://brokenos.wix.com/main#!news/c1x9v</string>
+    <string name="gapps_url">http://d-h.st/users/InkSlinger666/?fld_id=36375#files</string>
+    <string name="gapps_url_kitkat">http://d-h.st/users/InkSlinger666/?fld_id=36375#files</string>
 
     <!-- BrokenOTA update checker -->
-    <string name="xml_url">http://otabroken.BrokenOs.net/ota.xml</string>
-    <string name="xml_url_kitkat">http://otabroken.BrokenOs.net/ota_kitkat.xml</string>
+    <string name="xml_url">http://brokenos.wix.com/main#!ota/ce6f/ota.xml</string>
+    <string name="xml_url_kitkat">http://brokenos.wix.com/main#!ota/ce6f/ota_kitkat.xml</string>
     <string name="notification_message">BrokenOs ROM update available</string>
 
     <!-- BrokenOTA About -->
-    <string name="about_home_url"><a href="http://www.BrokenOs.net">www.BrokenOs.net</a></string>
+    <string name="about_home_url"><a href="http://brokenos.wix.com/main">www.BrokenOs.com</a></string>
     <string name="about_broken_ota">BrokenCenter allows you to easily manage\n your ROM!</string>
-    <string name="about_copyright">\u00A9 Copyright Brokenroms 2014</string>
+    <string name="about_copyright">\u00A9 Copyright BrokenOs 2014</string>
     <string name="about_version">BrokenCenter 1.0</string>
-    <string name="about_contact"><a href="http://otabroken.BrokenOs.net/contact.htm">Contact us</a></string>
-    <string name="about_contact_text">Tell us what you think\nor let us know about a bug or problem</string>
-    <string name="about_license">Open source licenses</string>
+    <string name="about_contact"><a href="http://brokenos.wix.com/main#!join_us/c21nl">Join us</a></string>
+    <string name="about_contact_text">Join Our Community</string>
+    <string name="about_license">Terms of Use</string>
     <string name="about_license_text">BrokenCenter app:</string>
-    <string name="about_license_url"><a href="http://otabroken.BrokenOs.net/license.htm">gpl(2)</a></string>
+    <string name="about_license_url"><a href="http://brokenos.wix.com/main#!terms-of-use/c23t9">gpl(2)</a></string>
     <string name="menu_brokensizer">BrokenSizer</string>
 
     <!-- BrokenSizer  -->
@@ -119,7 +119,7 @@
     <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Developer</string>
     <string name="broken_website_title">Broken Website</string>
-    <string name="broken_website_summary">www.BrokenOs.net\nFind all latest Broken news here</string>
+    <string name="broken_website_summary">www.BrokenOs.com\nFind all latest Broken news here</string>
     <string name="broken_irc_title">BrokenIRC</string>
     <string name="broken_irc_summary">Join our IRC channel!\nChat with the Broken Team and other users</string>
     <string name="broken_donate_title">Donate</string>
