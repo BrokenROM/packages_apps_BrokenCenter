@@ -2,7 +2,7 @@
  *
  *  PROJECT:  BrokenOs
  *            Team BrokenOs (http://brokenos.wix.com/main)
- *            ORIGINAL CREDIT TO SLIMROMS
+ *
  *  COPYRIGHT Copyright (C) 2014 BrokenOs http://brokenos.wix.com/main
  *            All rights reserved
  *

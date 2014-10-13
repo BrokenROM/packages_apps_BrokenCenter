@@ -83,7 +83,7 @@
     <string name="notification_message">Yeni BrokenOs ROM Güncellemesi</string>
 
     <!-- BrokenOTA About -->
-    <string name="about_home_url"><a href="http://www.BrokenOs.net">www.BrokenOs.net</a></string>
+    <string name="about_home_url"><a href="http://brokenos.wix.com/main">www.BrokenOs.com</a></string>
     <string name="about_broken_ota">BrokenCenter ROM\'unuzu yönetmenizde kolaylık sağlar!</string>
     <string name="about_copyright">\u00A9 Copyright Brokenroms 2013</string>
     <string name="about_version">BrokenCenter 1.1</string>
@@ -119,7 +119,7 @@
     <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Geliştirici</string>
     <string name="broken_website_title">Broken Web Sayfası</string>
-    <string name="broken_website_summary">www.BrokenOs.net\nEn Güncel Broken haberleri burada</string>
+    <string name="broken_website_summary">www.BrokenOs.com\nEn Güncel Broken haberleri burada</string>
     <string name="broken_irc_title">BrokenIRC</string>
     <string name="broken_irc_summary">IRC Destek kanalımıza katılın!\nBroken Team ve diğer kullanıcılarla sohbet edin</string>
     <string name="broken_donate_title">Bağış</string>

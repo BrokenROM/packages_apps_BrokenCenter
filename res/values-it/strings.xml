@@ -83,7 +83,7 @@
     <string name="notification_message">Aggiornamento Broken ROM disponibile</string>
 
     <!-- BrokenOTA About -->
-    <string name="about_home_url"><a href="http://www.BrokenOs.net">www.BrokenOs.net</a></string>
+    <string name="about_home_url"><a href="http://brokenos.wix.com/main">www.BrokenOs.com</a></string>
     <string name="about_broken_ota">BrokenCenter ti permette di gestire facilmente\n la tua ROM!</string>
     <string name="about_copyright">\u00A9 Copyright Brokenroms 2014</string>
     <string name="about_version">BrokenCenter 1.1</string>
@@ -119,7 +119,7 @@
     <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Sviluppatori</string>
     <string name="broken_website_title">Sito web Broken</string>
-    <string name="broken_website_summary">www.BrokenOs.net\nTrova qui le ultime news</string>
+    <string name="broken_website_summary">www.BrokenOs.com\nTrova qui le ultime news</string>
     <string name="broken_irc_title">BrokenIRC</string>
     <string name="broken_irc_summary">Partecipa al nostro canale IRC!\nParla con il team e altri utenti</string>
     <string name="broken_donate_title">Dona</string>

@@ -52,7 +52,7 @@
     <string name="notification_message">Elérhető BrokenOs ROM frissítés</string>
 
     <!-- BrokenOTA About -->
-    <string name="about_home_url"><a href="http://www.BrokenOs.net">www.BrokenOs.net</a></string>
+    <string name="about_home_url"><a href="http://brokenos.wix.com/main">www.BrokenOs.com</a></string>
     <string name="about_broken_ota">BrokenCenter segítségével könnyen kezelhető a ROM!</string>
     <string name="about_copyright">\u00A9 Copyright Brokenroms 2013</string>
     <string name="about_version">BrokenCenter 1.1</string>
@@ -85,7 +85,7 @@
     <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Fejlesztő</string>
     <string name="broken_website_title">Broken Weboldal</string>
-    <string name="broken_website_summary">www.BrokenOs.net\nItt keresd a Broken újdonságokat</string>
+    <string name="broken_website_summary">www.BrokenOs.com\nItt keresd a Broken újdonságokat</string>
     <string name="broken_irc_title">BrokenIRC</string>
     <string name="broken_irc_summary">Gyere az IRC-re!\nBeszélgess a Broken Csapattal és felhasználókkal</string>
     <string name="broken_donate_title">Támogatás</string>

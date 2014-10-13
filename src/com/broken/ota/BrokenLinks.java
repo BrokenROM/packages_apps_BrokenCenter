@@ -2,8 +2,8 @@
  *
  *  PROJECT:  BrokenOs
  *            Team BrokenOs (http://brokenos.wix.com/main)
- *            CREDIT  GOES TO SLIMROM
- *  COPYRIGHT Copyright (C) 2014 BrokenOS http://brokenos.wix.com/main
+ *
+ *  COPYRIGHT Copyright (C) 2014 BrokenOs http://brokenos.wix.com/main
  *            All rights reserved
  *
  *  LICENSE   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL

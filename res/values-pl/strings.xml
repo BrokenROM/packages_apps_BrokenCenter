@@ -71,7 +71,7 @@
     <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Programista</string>
     <string name="broken_website_title">Strona projektu Broken</string>
-    <string name="broken_website_summary">www.BrokenOs.net\nZnajdź najnowsze informacje o projekcie tutaj</string>
+    <string name="broken_website_summary">www.BrokenOs.com\nZnajdź najnowsze informacje o projekcie tutaj</string>
     <string name="broken_irc_title">BrokenIRC</string>
     <string name="broken_irc_summary">Dołącz do naszego kanału IRCl!\nRozmawiaj z zespołem Broken i innymi użytkownikami</string>
     <string name="broken_donate_title">Wesprzyj</string>

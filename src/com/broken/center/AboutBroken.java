@@ -2,7 +2,7 @@
  *
  *  PROJECT:  BrokenOs
  *            Team BrokenOs (http://brokenos.wix.com/main)
- *            CREDIT GOES TO SLIMROM
+ *
  *  COPYRIGHT Copyright (C) 2014 BrokenOs http://brokenos.wix.com/main
  *            All rights reserved
  *
@@ -84,11 +84,11 @@ public class AboutBroken extends Fragment{
         @Override
         public void onClick(View v) {
             if (v == website) {
-                launchUrl("http://brokenos.wix.com/main");
+                launchUrl("http://BrokenOs.net/");
             } else if (v == source) {
                 launchUrl("http://github.com/BrokenOs");
             } else if (v == donate) {
-                launchUrl("http://brokenos.wix.com/main#!donations/c1u32");
+                launchUrl("http://brokenos.wix.com/main/index.php/donations");
             } else if (v == irc) {
                 if (isCallable(IRC_INTENT)){
                     startActivity(IRC_INTENT);

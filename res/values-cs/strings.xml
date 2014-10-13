@@ -50,7 +50,7 @@
     <string name="gapps_url">http://otabroken.BrokenOs.net/gapps.htm</string>
     <string name="xml_url">http://otabroken.BrokenOs.net/ota.xml</string>
     <string name="notification_message">Aktualizace BrokenBean ROM je k dispozici</string>
-    <string name="about_home_url"><a href="http://www.BrokenOs.net">www.BrokenOs.net</a></string>
+    <string name="about_home_url"><a href="http://brokenos.wix.com/main">www.BrokenOs.com</a></string>
     <string name="about_broken_ota">BrokenCenter umožní snadno spravovat\nvaši ROM!</string>
     <string name="about_copyright">\u00A9 Copyright Brokenroms 2013</string>
     <string name="about_version">BrokenCenter 1.1</string>
@@ -78,7 +78,7 @@
     <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Vývojář</string>
     <string name="broken_website_title">Broken webstránka</string>
-    <string name="broken_website_summary">www.BrokenOs.net\nZde najdete poslední Broken novinky</string>
+    <string name="broken_website_summary">www.BrokenOs.com\nZde najdete poslední Broken novinky</string>
     <string name="broken_irc_title">BrokenIRC</string>
     <string name="broken_irc_summary">Připojte se na náš IRC kanál!\nChatujte se Broken týmem i ostatními uživateli</string>
     <string name="broken_donate_title">Přispět</string>

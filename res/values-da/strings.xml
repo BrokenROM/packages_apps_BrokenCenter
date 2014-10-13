@@ -64,7 +64,7 @@
     <string name="gapps_url">http://otabroken.BrokenOs.net/gapps.htm</string>
     <string name="xml_url">http://otabroken.BrokenOs.net/ota.xml</string>
     <string name="notification_message">BrokenBean ROM-opdatering tilgængelig</string>
-    <string name="about_home_url"><a href="http://www.BrokenOs.net">www.BrokenOs.net</a></string>
+    <string name="about_home_url"><a href="http://brokenos.wix.com/main">www.BrokenOs.com</a></string>
     <string name="about_broken_ota">BrokenOTA holder altid dig,\ndin ROM og gapps opdateret</string>
     <string name="about_copyright">\u00A9 Copyright Brokenroms 2013</string>
     <string name="about_version">BrokenOTA 1.0</string>
