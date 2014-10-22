@@ -74,8 +74,8 @@
     <string name="changelog_url">https://docs.google.com/document/d/1-MH0rT7xxv6XehOmExcD5f49D6e27BOfIXXeoSlG8_w/edit</string>
     <string name="faq_url">http://brokenos.wix.com/main#!faq/c1tbf</string>
     <string name="news_url">http://brokenos.wix.com/main#!news/c1x9v</string>
-    <string name="gapps_url">http://d-h.st/users/InkSlinger666/?fld_id=36375#files</string>
-    <string name="gapps_url_kitkat">http://d-h.st/users/InkSlinger666/?fld_id=36375#files</string>
+    <string name="gapps_url">http://d-h.st/users/BrokenOs/?fld_id=40626#files</string>
+    <string name="gapps_url_kitkat">http://d-h.st/users/BrokenOs/?fld_id=40626#files</string>
 
     <!-- BrokenOTA update checker -->
     <string name="xml_url">http://brokenos.wix.com/main#!ota/ce6f/ota.xml</string>
