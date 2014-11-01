@@ -156,11 +156,11 @@ public class BrokenOTA extends Fragment implements OnSharedPreferenceChangeListe
             String strLine;
             while ((strLine = br.readLine()) != null) {
                 String[] line = strLine.split("=");
-                if (line[0].equalsIgnoreCase("ro.product.device")) {
+                if (line[0].equalsIgnoreCase("ro.broken.device")) {
                     mStrCodename = line[1];
                 } else if (line[0].equalsIgnoreCase("broken.ota.version")) {
                     mStrCurVer = line[1];
-                } else if (line[0].equalsIgnoreCase("ro.product.model")) {
+                } else if (line[0].equalsIgnoreCase("ro.broken.model")) {
                     mStrDevice = line[1];
                 } else if (line[0].equalsIgnoreCase("ro.modversion")) {
                     mStrCurFile = line[1];
