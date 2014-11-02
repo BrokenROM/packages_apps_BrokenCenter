@@ -30,7 +30,7 @@
     <string name="device_info_title">Device Information</string>
     <string name="up_to_date_title">Your system is up to date</string>
     <string name="no_data_title">No data connection available</string>
-    <string name="error_reading_title">Cannot read BrokenOTA info...It ain't done yet</string>
+    <string name="error_reading_title">Cannot read BrokenOTA info...It ain\'t done yet</string>
     <string name="update_file_title">Update:</string>
     <string name="ota_title">BrokenOTA</string>
     <string name="reboot">All done! Reboot your device now.</string>
