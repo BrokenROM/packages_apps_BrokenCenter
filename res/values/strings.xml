@@ -71,7 +71,7 @@
     <string name="short_cut_download_gapps_summary">Download BrokenOs addon packages</string>
 
     <string name="download_url">http://brokenos.wix.com/main#!downloads/c1hwb</string>
-    <string name="changelog_url">http://brokenos.wix.com/main#!changelog/c1h49</string>
+    <string name="changelog_url">https://github.com/BrokenROM/Changelogs</string>
     <string name="faq_url">http://brokenos.wix.com/main#!faq/c1tbf</string>
     <string name="news_url">http://brokenos.wix.com/main#!news/c1tsa</string>
     <string name="gapps_url">http://brokenos.wix.com/main#!downloads/c1hwb</string>
