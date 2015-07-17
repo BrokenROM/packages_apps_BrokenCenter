@@ -125,7 +125,7 @@
     <string name="broken_donate_title">Bağış</string>
     <string name="broken_donate_summary">Broken Team\'e Bağış Yapınız</string>
     <string name="broken_source_title">Broken Kaynakları</string>
-    <string name="broken_source_summary">BrokenOs tamamen açık kaynak kodlu bir yazılımdır.\ngithub.com/BrokenOs\'da kaynak</string>
+    <string name="broken_source_summary">BrokenOs tamamen açık kaynak kodlu bir yazılımdır.\ngithub.com/BrokenROM\'da kaynak</string>
     <string name="no_irc">BrokenIRC uygulaması bulunamadı.</string>
     <string name="center_summary"><b>BrokenCenter</b>BrokenOs deneyiminizi kolayştıracak bilgi &amp; araçlar sağlamaktadır. <b>BrokenOTA</b> kullanarak ROM\'unuzu otomatik olarak en son versiyona güncelleyin veya <b>BrokenSizer</b> ile kullanmadığınız sistem uygulamalarını sorunsuz kaldırın.</string>
     <string name="broken_bugreport">Hata bildirme</string>

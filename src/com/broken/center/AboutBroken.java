@@ -86,7 +86,7 @@ public class AboutBroken extends Fragment{
             if (v == website) {
                 launchUrl("http://brokenos.wix.com/main");
             } else if (v == source) {
-                launchUrl("http://github.com/BrokenOs");
+                launchUrl("http://github.com/BrokenROM");
             } else if (v == donate) {
                 launchUrl("http://brokenos.wix.com/main#!donations/c1u32");
             } else if (v == irc) {

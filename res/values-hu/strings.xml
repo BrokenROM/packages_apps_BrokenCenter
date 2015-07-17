@@ -91,7 +91,7 @@
     <string name="broken_donate_title">Támogatás</string>
     <string name="broken_donate_summary">Támogasd a BrokenOs Csapatot</string>
     <string name="broken_source_title">Broken Forrás</string>
-    <string name="broken_source_summary">BrokenOs teljesen nyílt forrású.\nForrás: github.com/BrokenOs</string>
+    <string name="broken_source_summary">BrokenOs teljesen nyílt forrású.\nForrás: github.com/BrokenROM</string>
     <string name="no_irc">BrokenIRC alkalmazás nem található.</string>
     <string name="center_summary"><b>BrokenCenter</b> eszközők &amp; információk melyek segítenek jobban élvezni a BrokenOs-t. Automatikus frissítés az újabb ROM verzióra a <b>BrokenOTA</b> segítségével és eltávolithatod a szükségtelen alkalmazásokat a  <b>BrokenSizer</b>  használatával.</string>
     <string name="broken_bugreport">Hibajelentés</string>

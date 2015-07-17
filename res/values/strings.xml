@@ -125,7 +125,7 @@
     <string name="broken_donate_title">Donate</string>
     <string name="broken_donate_summary">Donate to Team BrokenOs</string>
     <string name="broken_source_title">Broken Source</string>
-    <string name="broken_source_summary">BrokenOs are fully open source.\nSource at github.com/BrokenOs</string>
+    <string name="broken_source_summary">BrokenOs are fully open source.\nSource at github.com/BrokenROM</string>
     <string name="no_irc">BrokenIRC App not found.</string>
     <string name="no_irc_unofficial">BrokenIRC is not available on unofficial builds.</string>
     <string name="center_summary"><b>BrokenCenter</b> provides tools &amp; information to help make your experience with BrokenOs even better. Upgrade automatically to the newest version of our ROM with <b>BrokenOTA</b> and remove unwanted system apps with <b>BrokenSizer</b>.</string>

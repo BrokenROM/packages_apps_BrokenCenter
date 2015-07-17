@@ -77,7 +77,7 @@
     <string name="broken_donate_title">Wesprzyj</string>
     <string name="broken_donate_summary">Dotacje dla ekipy BrokenOs</string>
     <string name="broken_source_title">Źródło SLIM</string>
-    <string name="broken_source_summary">Romy SLIM są w pełni otwartym źródłem.\nŹródło: github.com/BrokenOs</string>
+    <string name="broken_source_summary">Romy SLIM są w pełni otwartym źródłem.\nŹródło: github.com/BrokenROM</string>
     <string name="no_irc">Nie znaleziono aplikacji BrokenIRC.</string>
     <string name="center_summary"><b>BrokenCenter</b> dostarcza narzędzia i informacje, które pomogą ulepszyć twoje doświadczenia z Romem. Aktualizuj automatycznie do najnowszej wersji przez <b>BrokenOTA</b> i usuwaj niepotrzebne aplikacje systemowe z <b>BrokenSizer</b></string>
 </resources>

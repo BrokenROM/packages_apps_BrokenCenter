@@ -84,7 +84,7 @@
     <string name="broken_donate_title">Přispět</string>
     <string name="broken_donate_summary">Přispějte týmu BrokenOs</string>
     <string name="broken_source_title">Broken Zdroj</string>
-    <string name="broken_source_summary">BrokenOs jsou zcela open source.\nZdroje najdete na github.com/BrokenOs</string>
+    <string name="broken_source_summary">BrokenOs jsou zcela open source.\nZdroje najdete na github.com/BrokenROM</string>
     <string name="no_irc">BrokenIRC aplikace nenalezena.</string>
     <string name="center_summary"><b>BrokenCenter</b> poskytuje nástroje a informace, které pomohou učinit vaše zkušenosti se BrokenOs ještě lepší. Automaticky aktualizujte na nejnovější verzi naší ROM pomocí <b>BrokenOTA</b> a odstraňte nežádoucí systémové aplikace <b>BrokenSizerem</b></string>
 </resources>

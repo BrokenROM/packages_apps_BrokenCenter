@@ -125,7 +125,7 @@
     <string name="broken_donate_title">Faire un don</string>
     <string name="broken_donate_summary">Faire un don à l\'équipe BrokenOs</string>
     <string name="broken_source_title">Broken Source</string>
-    <string name="broken_source_summary">Les BrokenOs sont entièrement open source.\nSource sur github.com/BrokenOs</string>
+    <string name="broken_source_summary">Les BrokenOs sont entièrement open source.\nSource sur github.com/BrokenROM</string>
     <string name="no_irc">BrokenIRC App introuvable.</string>
     <string name="center_summary"><b>BrokenCenter</b> fournit des outils et des informations pour aider à rendre votre expérience avec BrokenOs encore meilleure. Mettez automatiquement à jour vers la dernière version de notre ROM avec BrokenOTA et supprimez des applications système non désirées avec BrokenSizer</string>
     <string name="broken_bugreport">Rapport de bug</string>

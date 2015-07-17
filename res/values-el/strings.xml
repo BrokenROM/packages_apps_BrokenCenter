@@ -111,7 +111,7 @@
     <string name="broken_donate_title">Δωρεά</string>
     <string name="broken_donate_summary">Δωρίστε στην Ομάδα BrokenOs</string>
     <string name="broken_source_title">Κώδικας Broken</string>
-    <string name="broken_source_summary">Οι BrokenOs ειναι πλήρως ανοιχτού κώδικα.\nΠηγαίος κώδικας στο github.com/BrokenOs</string>
+    <string name="broken_source_summary">Οι BrokenOs ειναι πλήρως ανοιχτού κώδικα.\nΠηγαίος κώδικας στο github.com/BrokenROM</string>
     <string name="no_irc">Η εφαρμογή BrokenIRC δέν βρέθηκε.</string>
     <string name="center_summary">Το <b>BrokenCenter</b> παρέχει εργαλεία &amp; πληροφορίες για να βελτιώσει την εμπειρία σας με τις BrokenOs. Ενημερώστε αυτόματα στην τελευταία έκδοση της ROM μας με το <b>BrokenOTA</b> και αφαιρέστε ανεπιθύμητες εφαρμογές συστήματος με το <b>BrokenSizer</b></string>
     <string name="broken_bugreport">Αναφορά Σφάλματος</string>

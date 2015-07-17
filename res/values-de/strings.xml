@@ -84,7 +84,7 @@
     <string name="broken_donate_title">Spenden</string>
     <string name="broken_donate_summary">Spende an BrokenOs</string>
     <string name="broken_source_title">Broken Quellcode</string>
-    <string name="broken_source_summary">BrokenOs sind vollständig Open Source.\nQuellcode bei github.com/BrokenOs</string>
+    <string name="broken_source_summary">BrokenOs sind vollständig Open Source.\nQuellcode bei github.com/BrokenROM</string>
     <string name="no_irc">BrokenIRC App nicht gefunden.</string>
     <string name="center_summary"><b>BrokenCenter</b> bietet Tools &amp; Informationen, die dabei helfen, die Erfahrung mit BrokenOs sogar noch besser zu machen. Aktualisieren Sie automatisch auf die neueste Version unserer ROM mit <b>BrokenOTA</b> und entfernen Sie nicht benötigte System-Apps mit <b>BrokenSizer</b></string>
     <string name="broken_bugreport">Fehlerbericht</string>

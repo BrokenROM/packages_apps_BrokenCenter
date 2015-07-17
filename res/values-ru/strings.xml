@@ -90,7 +90,7 @@
     <string name="broken_website_title">Страница Broken</string>
     <string name="broken_source_title">Исходники Broken</string>
     <string name="broken_website_summary">www.BrokenOs.com\nВсе последние новости про Broken здесь</string>
-    <string name="broken_source_summary">Broken полностью открыт.\nИсходники на github.com/BrokenOs</string>
+    <string name="broken_source_summary">Broken полностью открыт.\nИсходники на github.com/BrokenROM</string>
     <string name="broken_donate_title">Пожертвования</string>
     <string name="broken_donate_summary">Пожертвовать команде BrokenOs</string>
     <string name="broken_irc_title">BrokenIRC</string>
