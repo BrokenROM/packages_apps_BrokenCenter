@@ -139,7 +139,7 @@
             android:layout_height="8dp"
             android:gravity="center_horizontal" />
 
-        <LinearLayout
+    <LinearLayout
             android:id="@+id/broken_irc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

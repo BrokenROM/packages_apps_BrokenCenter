@@ -167,7 +167,7 @@ public class AboutBroken extends Fragment{
          String strLine;
          while ((strLine = br.readLine()) != null) {
              String[] line = strLine.split("=");
-             if (line[0].equalsIgnoreCase("ro.modversion")) {
+             if (line[0].equalsIgnoreCase("ro.broken.version")) {
                  mStrDevice = line[1];
              }
          }
