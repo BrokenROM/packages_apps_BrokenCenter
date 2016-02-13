@@ -70,24 +70,23 @@
     <string name="short_cut_download_gapps_title">Download gapps</string>
     <string name="short_cut_download_gapps_summary">Download BrokenOs addon packages</string>
 
-    <string name="download_url">http://brokenos.wix.com/main#!downloads/c1hwb</string>
+    <string name="download_url">https://www.androidfilehost.com/?w=files&amp;flid=18718</string>
     <string name="changelog_url">https://github.com/BrokenROM/Changelogs</string>
-    <string name="faq_url">http://brokenos.wix.com/main#!faq/c1tbf</string>
-    <string name="news_url">http://brokenos.wix.com/main#!news/c1tsa</string>
-    <string name="gapps_url">http://brokenos.wix.com/main#!downloads/c1hwb</string>
-    <string name="gapps_url_kitkat">http://brokenos.wix.com/main#!downloads/c1hwb</string>
+    <string name="faq_url">http://dysfunctionalroms.net/faq/</string>
+    <string name="news_url">http://dysfunctionalroms.net/</string>
+    <string name="gapps_url">https://www.androidfilehost.com/?w=files&amp;flid=41020</string>
 
     <!-- BrokenOTA update checker -->
-    <string name="xml_url">http://brokenos.wix.com/main#!ota/ce6f/ota.xml</string>
-    <string name="xml_url_kitkat">http://brokenos.wix.com/main#!ota/ce6f/ota_kitkat.xml</string>
+    <string name="xml_url">https://www.dropbox.com/s/vnlyjl70wf8ibp7/ota-broken.xml</string>
+    <string name="xml_url_backup">https://www.dropbox.com/s/vnlyjl70wf8ibp7/ota-broken-backup.xml</string>
     <string name="notification_message">BrokenOs ROM update available</string>
 
     <!-- BrokenOTA About -->
-    <string name="about_home_url"><a href="http://brokenos.wix.com/main">www.BrokenOs.com</a></string>
+    <string name="about_home_url"><a href="http://dysfunctionalroms.net/">DysfunctionRoms.net</a></string>
     <string name="about_broken_ota">BrokenCenter allows you to easily manage\n your ROM!</string>
     <string name="about_copyright">\u00A9 Copyright BrokenOs 2014</string>
     <string name="about_version">BrokenCenter 1.0</string>
-    <string name="about_contact"><a href="http://brokenos.wix.com/main#!join_us/c21nl">Join us</a></string>
+    <string name="about_contact"><a href="https://plus.google.com/u/0/communities/116521990967962635243">Join us</a></string>
     <string name="about_contact_text">Join Our Community</string>
     <string name="about_license">Terms of Use</string>
     <string name="about_license_text">BrokenCenter app:</string>
@@ -119,15 +118,11 @@
     <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Developer</string>
     <string name="broken_website_title">Broken Website</string>
-    <string name="broken_website_summary">www.BrokenOs.com\nFind all latest Broken news here</string>
-    <string name="broken_irc_title">BrokenIRC</string>
-    <string name="broken_irc_summary">Join our IRC channel!\nChat with the Broken Team and other users</string>
+    <string name="broken_website_summary">www.dysfunctionroms.net\nFind all latest Broken news here</string>
     <string name="broken_donate_title">Donate</string>
     <string name="broken_donate_summary">Donate to Team BrokenOs</string>
     <string name="broken_source_title">Broken Source</string>
     <string name="broken_source_summary">BrokenOs are fully open source.\nSource at github.com/BrokenROM</string>
-    <string name="no_irc">BrokenIRC App not found.</string>
-    <string name="no_irc_unofficial">BrokenIRC is not available on unofficial builds.</string>
     <string name="center_summary"><b>BrokenCenter</b> provides tools &amp; information to help make your experience with BrokenOs even better. Upgrade automatically to the newest version of our ROM with <b>BrokenOTA</b> and remove unwanted system apps with <b>BrokenSizer</b>.</string>
     <string name="broken_bugreport">Bugreport</string>
     <string name="broken_bugreport_summary">Create a complete Bugreport.</string>

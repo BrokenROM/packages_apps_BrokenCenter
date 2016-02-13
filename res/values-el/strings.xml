@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (C) 2012 Brokenroms
+ * Copyright (C) 2012 DysfunctionalRoms
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -71,9 +71,9 @@
 
     <!-- BrokenOTA About -->
     <string name="about_broken_ota">Το BrokenCenter επιτρέπει την εύκολη διαχείρηση\n ROM σας!</string>
-    <string name="about_copyright">\u00A9 Copyright Brokenroms 2013</string>
+    <string name="about_copyright">\u00A9 Copyright DysfunctionalRoms 2013</string>
     <string name="about_version">BrokenCenter 1.1</string>
-    <string name="about_contact"><a href="http://otabroken.BrokenOs.net/contact.htm">Επικοινωνήστε μαζί μας</a></string>
+    <string name="about_contact"><a href="https://plus.google.com/u/0/communities/116521990967962635243">Επικοινωνήστε μαζί μας</a></string>
     <string name="about_contact_text">Πείτε μας τι σκέφτεστε\nενημερώστε μας σχετικα με κάποιο πρόβλημα ή σφάλμα </string>
     <string name="about_license">Άδειες ανοιχτού κώδικα</string>
     <string name="about_license_text">Εφαρμογή BrokenCenter:</string>
@@ -105,14 +105,11 @@
     <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Προγραμματιστής</string>
     <string name="broken_website_title">Ιστότοπος Broken</string>
-    <string name="broken_website_summary">www.BrokenOs.com\nΒρείτε όλα τα τελευταία νέα της Broken εδώ</string>
-    <string name="broken_irc_title">BrokenIRC</string>
-    <string name="broken_irc_summary">Ελάτε στο κανάλι IRC μας!\nΣυνομιλήστε με την ομάδα της Broken και άλλους χρήστες</string>
+    <string name="broken_website_summary">www.dysfunctionroms.net\nΒρείτε όλα τα τελευταία νέα της Broken εδώ</string>
     <string name="broken_donate_title">Δωρεά</string>
     <string name="broken_donate_summary">Δωρίστε στην Ομάδα BrokenOs</string>
     <string name="broken_source_title">Κώδικας Broken</string>
     <string name="broken_source_summary">Οι BrokenOs ειναι πλήρως ανοιχτού κώδικα.\nΠηγαίος κώδικας στο github.com/BrokenROM</string>
-    <string name="no_irc">Η εφαρμογή BrokenIRC δέν βρέθηκε.</string>
     <string name="center_summary">Το <b>BrokenCenter</b> παρέχει εργαλεία &amp; πληροφορίες για να βελτιώσει την εμπειρία σας με τις BrokenOs. Ενημερώστε αυτόματα στην τελευταία έκδοση της ROM μας με το <b>BrokenOTA</b> και αφαιρέστε ανεπιθύμητες εφαρμογές συστήματος με το <b>BrokenSizer</b></string>
     <string name="broken_bugreport">Αναφορά Σφάλματος</string>
     <string name="broken_bugreport_summary">Δημιουργήστε πλήρη αναφορά σφάλματος.</string>

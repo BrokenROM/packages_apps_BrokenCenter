@@ -58,13 +58,11 @@ public class AboutBroken extends Fragment{
     private LinearLayout website;
     private LinearLayout source;
     private LinearLayout donate;
-    private LinearLayout irc;
     private LinearLayout report;
     private String mStrDevice;
     private boolean su=false;
     private static final String FILENAME_PROC_VERSION = "/proc/version";
     private static final String LOG_TAG = "DeviceInfoSettings";
-    private static Intent IRC_INTENT = new Intent(Intent.ACTION_VIEW, Uri.parse("ccircbroken:1"));
     public File path;
     public String zipfile;
     public String logfile;
@@ -84,21 +82,11 @@ public class AboutBroken extends Fragment{
         @Override
         public void onClick(View v) {
             if (v == website) {
-                launchUrl("http://brokenos.wix.com/main");
+                launchUrl("http://dysfunctionalroms.net");
             } else if (v == source) {
                 launchUrl("http://github.com/BrokenROM");
             } else if (v == donate) {
                 launchUrl("http://brokenos.wix.com/main#!donations/c1u32");
-            } else if (v == irc) {
-                if (isCallable(IRC_INTENT)){
-                    startActivity(IRC_INTENT);
-                } else {
-                    if (BuildInfo.getBrokenBuildType().equals("UNOFFICIAL")) {
-                        ircDialog();
-                    } else {
-                        toast(getResources().getString(R.string.no_irc));
-                    }
-                }
             } else if (v == report) {
                 bugreport();
             }
@@ -119,9 +107,6 @@ public class AboutBroken extends Fragment{
 
         donate = (LinearLayout) getView().findViewById(R.id.broken_donate);
         donate.setOnClickListener(mActionLayouts);
-
-        irc = (LinearLayout) getView().findViewById(R.id.broken_irc);
-        irc.setOnClickListener(mActionLayouts);
 
         report = (LinearLayout) getView().findViewById(R.id.broken_bugreport);
         report.setOnClickListener(mActionLayouts);
@@ -357,18 +342,5 @@ public class AboutBroken extends Fragment{
                             });
         }
         alert.show();
-    }
-
-    private void ircDialog() {
-        AlertDialog.Builder dialog = new AlertDialog.Builder(getActivity());
-        dialog.setMessage(R.string.no_irc_unofficial)
-              .setPositiveButton(R.string.ok,
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog,
-                                        int id) {
-                                    // action for ok
-                                    dialog.cancel();
-                                }
-                            }).show();
     }
 }

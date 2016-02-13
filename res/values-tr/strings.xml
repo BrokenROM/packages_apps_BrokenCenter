@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (C) 2012 Brokenroms
+ * Copyright (C) 2012 DysfunctionalRoms
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -70,24 +70,23 @@
     <string name="short_cut_download_gapps_title">GAPPS İndirin</string>
     <string name="short_cut_download_gapps_summary">BrokenOs Ek Paketlerini İndirin</string>
 
-    <string name="download_url">http://otabroken.BrokenOs.net/download.htm</string>
-    <string name="changelog_url">http://otabroken.BrokenOs.net/changelog.htm</string>
-    <string name="faq_url">http://otabroken.BrokenOs.net/faq.htm</string>
-    <string name="news_url">http://otabroken.BrokenOs.net/news.htm</string>
-    <string name="gapps_url">http://otabroken.BrokenOs.net/gapps.htm</string>
-    <string name="gapps_url_kitkat">http://otabroken.BrokenOs.net/gapps_kitkat.htm</string>
+    <string name="download_url">https://www.androidfilehost.com/?w=files&amp;flid=18718</string>
+    <string name="changelog_url">https://github.com/BrokenROM/Changelogs</string>
+    <string name="faq_url">http://dysfunctionalroms.net/faq/</string>
+    <string name="news_url">http://dysfunctionalroms.net/</string>
+    <string name="gapps_url">https://www.androidfilehost.com/?w=files&amp;flid=41020</string>
 
     <!-- BrokenOTA update checker -->
-    <string name="xml_url">http://otabroken.BrokenOs.net/ota.xml</string>
-    <string name="xml_url_kitkat">http://otabroken.BrokenOs.net/ota_kitkat.xml</string>
+    <string name="xml_url">https://www.dropbox.com/s/vnlyjl70wf8ibp7/ota-broken.xml</string>
+    <string name="xml_url_backup">https://www.dropbox.com/s/vnlyjl70wf8ibp7/ota-broken-backup.xml</string>
     <string name="notification_message">Yeni BrokenOs ROM Güncellemesi</string>
 
     <!-- BrokenOTA About -->
-    <string name="about_home_url"><a href="http://brokenos.wix.com/main">www.BrokenOs.com</a></string>
+    <string name="about_home_url"><a href="http://dysfunctionalroms.net/">DysfunctionRoms.net</a></string>
     <string name="about_broken_ota">BrokenCenter ROM\'unuzu yönetmenizde kolaylık sağlar!</string>
-    <string name="about_copyright">\u00A9 Copyright Brokenroms 2013</string>
+    <string name="about_copyright">\u00A9 Copyright DysfunctionalRoms 2013</string>
     <string name="about_version">BrokenCenter 1.1</string>
-    <string name="about_contact"><a href="http://otabroken.BrokenOs.net/contact.htm">İletişim</a></string>
+    <string name="about_contact"><a href="https://plus.google.com/u/0/communities/116521990967962635243">İletişim</a></string>
     <string name="about_contact_text">Bize düşündüklerinizi ve\veya hataları bildirin</string>
     <string name="about_license">Açık Kaynak Lisansları</string>
     <string name="about_license_text">BrokenCenter app:</string>
@@ -119,14 +118,11 @@
     <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Geliştirici</string>
     <string name="broken_website_title">Broken Web Sayfası</string>
-    <string name="broken_website_summary">www.BrokenOs.com\nEn Güncel Broken haberleri burada</string>
-    <string name="broken_irc_title">BrokenIRC</string>
-    <string name="broken_irc_summary">IRC Destek kanalımıza katılın!\nBroken Team ve diğer kullanıcılarla sohbet edin</string>
+    <string name="broken_website_summary">www.dysfunctionroms.net\nEn Güncel Broken haberleri burada</string>
     <string name="broken_donate_title">Bağış</string>
     <string name="broken_donate_summary">Broken Team\'e Bağış Yapınız</string>
     <string name="broken_source_title">Broken Kaynakları</string>
     <string name="broken_source_summary">BrokenOs tamamen açık kaynak kodlu bir yazılımdır.\ngithub.com/BrokenROM\'da kaynak</string>
-    <string name="no_irc">BrokenIRC uygulaması bulunamadı.</string>
     <string name="center_summary"><b>BrokenCenter</b>BrokenOs deneyiminizi kolayştıracak bilgi &amp; araçlar sağlamaktadır. <b>BrokenOTA</b> kullanarak ROM\'unuzu otomatik olarak en son versiyona güncelleyin veya <b>BrokenSizer</b> ile kullanmadığınız sistem uygulamalarını sorunsuz kaldırın.</string>
     <string name="broken_bugreport">Hata bildirme</string>
     <string name="broken_bugreport_summary">Tam hata raporu oluşturun.</string>

@@ -133,10 +133,10 @@ public class UpdateChecker extends AsyncTask<Context, Integer, String> {
             String newUpdateUrl = null;
             String newFileName = null;
             URL url = null;
-            if (brokenCurVer != null && brokenCurVer.contains("4.4")) {
-                url = new URL(mContext.getString(R.string.xml_url_kitkat));
-            } else {
+            if (brokenCurVer != null && brokenCurVer.contains("6.0.1")) {
                 url = new URL(mContext.getString(R.string.xml_url));
+            } else {
+                url = new URL(mContext.getString(R.string.xml_url_backup));
             }
             urlConnection = (HttpURLConnection) url.openConnection();
             BufferedReader in = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));

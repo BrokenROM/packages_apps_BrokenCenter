@@ -43,18 +43,19 @@
     <string name="short_cut_download_uptodate_summary">Stáhnout BrokenBean ROM</string>
     <string name="short_cut_download_gapps_title">Stáhnout gapps</string>
     <string name="short_cut_download_gapps_summary">Stáhnout doplňující balíčky BrokenBean</string>
-    <string name="download_url">http://otabroken.BrokenOs.net/download.htm</string>
-    <string name="changelog_url">http://otabroken.BrokenOs.net/changelog.htm</string>
-    <string name="faq_url">http://otabroken.BrokenOs.net/faq.htm</string>
-    <string name="news_url">http://otabroken.BrokenOs.net/news.htm</string>
-    <string name="gapps_url">http://otabroken.BrokenOs.net/gapps.htm</string>
-    <string name="xml_url">http://otabroken.BrokenOs.net/ota.xml</string>
+    <string name="download_url">https://www.androidfilehost.com/?w=files&amp;flid=18718</string>
+    <string name="changelog_url">https://github.com/BrokenROM/Changelogs</string>
+    <string name="faq_url">http://dysfunctionalroms.net/faq/</string>
+    <string name="news_url">http://dysfunctionalroms.net/</string>
+    <string name="gapps_url">https://www.androidfilehost.com/?w=files&amp;flid=41020</string>
+    <string name="xml_url">https://www.dropbox.com/s/vnlyjl70wf8ibp7/ota-broken.xml</string>
+    <string name="xml_url_backup">https://www.dropbox.com/s/vnlyjl70wf8ibp7/ota-broken-backup.xml</string>
     <string name="notification_message">Aktualizace BrokenBean ROM je k dispozici</string>
-    <string name="about_home_url"><a href="http://brokenos.wix.com/main">www.BrokenOs.com</a></string>
+    <string name="about_home_url"><a href="http://dysfunctionalroms.net/">DysfunctionRoms.net</a></string>
     <string name="about_broken_ota">BrokenCenter umožní snadno spravovat\nvaši ROM!</string>
-    <string name="about_copyright">\u00A9 Copyright Brokenroms 2013</string>
+    <string name="about_copyright">\u00A9 Copyright DysfunctionalRoms 2013</string>
     <string name="about_version">BrokenCenter 1.1</string>
-    <string name="about_contact"><a href="http://otabroken.BrokenOs.net/contact.htm">Kontaktujte nás</a></string>
+    <string name="about_contact"><a href="https://plus.google.com/u/0/communities/116521990967962635243">Kontaktujte nás</a></string>
     <string name="about_contact_text">Řekněte nám, co si myslíte\nnebo nám dejte vědět o chybě nebo problému</string>
     <string name="about_license">Licence open source</string>
     <string name="about_license_text">Aplikace BrokenCenter:</string>
@@ -78,13 +79,10 @@
     <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Vývojář</string>
     <string name="broken_website_title">Broken webstránka</string>
-    <string name="broken_website_summary">www.BrokenOs.com\nZde najdete poslední Broken novinky</string>
-    <string name="broken_irc_title">BrokenIRC</string>
-    <string name="broken_irc_summary">Připojte se na náš IRC kanál!\nChatujte se Broken týmem i ostatními uživateli</string>
+    <string name="broken_website_summary">www.dysfunctionroms.net\nZde najdete poslední Broken novinky</string>
     <string name="broken_donate_title">Přispět</string>
     <string name="broken_donate_summary">Přispějte týmu BrokenOs</string>
     <string name="broken_source_title">Broken Zdroj</string>
     <string name="broken_source_summary">BrokenOs jsou zcela open source.\nZdroje najdete na github.com/BrokenROM</string>
-    <string name="no_irc">BrokenIRC aplikace nenalezena.</string>
     <string name="center_summary"><b>BrokenCenter</b> poskytuje nástroje a informace, které pomohou učinit vaše zkušenosti se BrokenOs ještě lepší. Automaticky aktualizujte na nejnovější verzi naší ROM pomocí <b>BrokenOTA</b> a odstraňte nežádoucí systémové aplikace <b>BrokenSizerem</b></string>
 </resources>

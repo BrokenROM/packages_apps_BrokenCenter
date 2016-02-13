@@ -43,10 +43,10 @@
     <string name="short_cut_download_uptodate_summary">Pobierz ROM BrokenBean</string>
     <string name="short_cut_download_gapps_title">Pobierz Gapps</string>
     <string name="short_cut_download_gapps_summary">Pobierz paczki z dodatkami do BrokenBean</string>
-    <string name="download_url">http://otabroken.BrokenOs.net/download.htm</string>
+    <string name="download_url">https://www.androidfilehost.com/?w=files&amp;flid=18718</string>
     <string name="notification_message">Dostępna aktualizacja ROMU BrokenBean</string>
     <string name="about_broken_ota">BrokenOTA pilnuje by twój ROM i gappsy\nbyły na bieżąco</string>
-    <string name="about_copyright">\u00A9 prawa autorskie Brokenroms 2013</string>
+    <string name="about_copyright">\u00A9 prawa autorskie DysfunctionalRoms 2013</string>
     <string name="about_version">BrokenOTA 1.0</string>
     <string name="about_contact_text">Powiedz nam co myślisz\nlub też daj znać o błędach i problemach</string>
     <string name="about_license">Licencja otwartego źródła</string>
@@ -71,13 +71,10 @@
     <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Programista</string>
     <string name="broken_website_title">Strona projektu Broken</string>
-    <string name="broken_website_summary">www.BrokenOs.com\nZnajdź najnowsze informacje o projekcie tutaj</string>
-    <string name="broken_irc_title">BrokenIRC</string>
-    <string name="broken_irc_summary">Dołącz do naszego kanału IRCl!\nRozmawiaj z zespołem Broken i innymi użytkownikami</string>
+    <string name="broken_website_summary">www.dysfunctionroms.net\nZnajdź najnowsze informacje o projekcie tutaj</string>
     <string name="broken_donate_title">Wesprzyj</string>
     <string name="broken_donate_summary">Dotacje dla ekipy BrokenOs</string>
     <string name="broken_source_title">Źródło SLIM</string>
     <string name="broken_source_summary">Romy SLIM są w pełni otwartym źródłem.\nŹródło: github.com/BrokenROM</string>
-    <string name="no_irc">Nie znaleziono aplikacji BrokenIRC.</string>
     <string name="center_summary"><b>BrokenCenter</b> dostarcza narzędzia i informacje, które pomogą ulepszyć twoje doświadczenia z Romem. Aktualizuj automatycznie do najnowszej wersji przez <b>BrokenOTA</b> i usuwaj niepotrzebne aplikacje systemowe z <b>BrokenSizer</b></string>
 </resources>

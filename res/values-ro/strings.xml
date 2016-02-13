@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (C) 2012 Brokenroms
+ * Copyright (C) 2012 DysfunctionalRoms
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -58,17 +58,18 @@
     <string name="short_cut_download_uptodate_summary">Descarcă BrokenBean ROM</string>
     <string name="short_cut_download_gapps_title">Descarcă gapps</string>
     <string name="short_cut_download_gapps_summary">Descarcă pachet de adaugări</string>
-    <string name="changelog_url">http://otabroken.BrokenOs.net/changelog.htm</string>
-    <string name="faq_url">http://otabroken.BrokenOs.net/faq.htm</string>
-    <string name="news_url">http://otabroken.BrokenOs.net/news.htm</string>
-    <string name="gapps_url">http://otabroken.BrokenOs.net/gapps.htm</string>
-    <string name="xml_url">http://otabroken.BrokenOs.net/ota.xml</string>
+    <string name="changelog_url">https://github.com/BrokenROM/Changelogs</string>
+    <string name="faq_url">http://dysfunctionalroms.net/faq/</string>
+    <string name="news_url">http://dysfunctionalroms.net/</string>
+    <string name="gapps_url">https://www.androidfilehost.com/?w=files&amp;flid=41020</string>
+    <string name="xml_url">https://www.dropbox.com/s/vnlyjl70wf8ibp7/ota-broken.xml</string>
+    <string name="xml_url_backup">https://www.dropbox.com/s/vnlyjl70wf8ibp7/ota-broken-backup.xml</string>
     <string name="notification_message">Actualizare BrokenBean ROM disponibilă</string>
-    <string name="about_home_url"><a href="http://brokenos.wix.com/main">www.BrokenOs.com</a></string>
+    <string name="about_home_url"><a href="http://dysfunctionalroms.net/">DysfunctionRoms.net</a></string>
     <string name="about_broken_ota">BrokenOTA te ţine întotdeauna actualizat\nîn legătura cu rom şi gapps</string>
-    <string name="about_copyright">\u00A9 Drepturi de autor Brokenroms 2013</string>
+    <string name="about_copyright">\u00A9 Drepturi de autor DysfunctionalRoms 2013</string>
     <string name="about_version">BrokenOTA 1.0</string>
-    <string name="about_contact"><a href="http://otabroken.BrokenOs.net/contact.htm">Contactați-ne</a></string>
+    <string name="about_contact"><a href="https://plus.google.com/u/0/communities/116521990967962635243">Contactați-ne</a></string>
     <string name="about_contact_text">Spuneți-ne ce credeți\nsau anunţaţi-ne despre un bug sau o problema</string>
     <string name="about_license">Licenţe open source</string>
     <string name="about_license_text">Aplicatie BrokenOTA:</string>

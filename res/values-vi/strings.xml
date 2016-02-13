@@ -42,7 +42,7 @@
     <string name="short_cut_download_uptodate_summary">Tải về ROM BrokenBean</string>
     <string name="short_cut_download_gapps_title">Tải về gapps</string>
     <string name="short_cut_download_gapps_summary">Tải về gói tiện ích BrokenBean</string>
-    <string name="download_url">http://otabroken.BrokenOs.net/download.htm</string>
+    <string name="download_url">https://www.androidfilehost.com/?w=files&amp;flid=18718</string>
     <string name="notification_message">Có sẵn bản cập nhật của ROM BrokenBean</string>
     <string name="about_broken_ota">Trung tâm Broken cho phép bạn để dễ dàng quản lý\n ROM của bạn!</string>
     <string name="about_version">Trung tâm Broken 1.1</string>
@@ -66,13 +66,10 @@
     <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Nhà phát triển</string>
     <string name="broken_website_title">Trang web Broken</string>
-    <string name="broken_website_summary">www.BrokenOs.com\nTìm tất cả mọi thứ mới nhất về Broken ở đây</string>
-    <string name="broken_irc_title">BrokenIRC</string>
-    <string name="broken_irc_summary">Tham gia của kênh IRC của chúng tôi! \nTrò chuyện với Đội phát triển Broken và những người dùng khác</string>
+    <string name="broken_website_summary">www.dysfunctionroms.net\nTìm tất cả mọi thứ mới nhất về Broken ở đây</string>
     <string name="broken_donate_title">Ủng hộ</string>
     <string name="broken_donate_summary">Ủng hộ nhóm phát triển Broken</string>
     <string name="broken_source_title">Mã nguồn Broken</string>
     <string name="broken_source_summary">BrokenOs là nguồn mở hoàn toàn.\nMã nguồn tại github.com/BrokenROM</string>
-    <string name="no_irc">Không tìm thấy Ứng dụng BrokenIRC.</string>
     <string name="center_summary"><b>Trung tâm Broken</b> cung cấp các công cụ &amp; thông tin để giúp nâng cao vượt bậc trải nghiệm của bạn với Broken rom. Tự động nâng cấp BrokenRom của bạn lên phiên bản mới nhất với <b>BrokenOTA</b> và loại bỏ những ứng dụng hệ thống không mong muốn với <b>BrokenSizer</b></string>
 </resources>

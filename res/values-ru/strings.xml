@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
- * Copyright (C) 2012 Brokenroms
+ * Copyright (C) 2012 DysfunctionalRoms
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -60,7 +60,7 @@
     <string name="notification_message">Доступно обновление прошивки BrokenOs</string>
     <string name="about_broken_ota">Broken-Центр позволяет легко изменять\n свою прошивку!</string>
     <string name="about_version">Broken-Центр 1.1</string>
-    <string name="about_contact"><a href="http://otabroken.BrokenOs.net/contact.htm">Связаться с нами</a></string>
+    <string name="about_contact"><a href="https://plus.google.com/u/0/communities/116521990967962635243">Связаться с нами</a></string>
     <string name="about_contact_text">Расскажите нам свои впечатления\nили дайте знать о баге или проблеме</string>
     <string name="about_license">Открытые лицензии</string>
     <string name="about_license_text">Broken-Центр:</string>
@@ -89,14 +89,10 @@
     <string name="devs">Разработчик</string>
     <string name="broken_website_title">Страница Broken</string>
     <string name="broken_source_title">Исходники Broken</string>
-    <string name="broken_website_summary">www.BrokenOs.com\nВсе последние новости про Broken здесь</string>
+    <string name="broken_website_summary">www.dysfunctionroms.net\nВсе последние новости про Broken здесь</string>
     <string name="broken_source_summary">Broken полностью открыт.\nИсходники на github.com/BrokenROM</string>
     <string name="broken_donate_title">Пожертвования</string>
     <string name="broken_donate_summary">Пожертвовать команде BrokenOs</string>
-    <string name="broken_irc_title">BrokenIRC</string>
-    <string name="broken_irc_summary">Заходите в нашу IRC!\nОбщайтесь с командой Broken и другими пользователями</string>
-    <string name="no_irc">Приложение BrokenIRC не найдено.</string>
-    <string name="no_irc_unofficial">BrokenIRC отсутствует в неофициальных сборках.</string>
     <string name="center_summary"><b>Broken-Центр</b> включает утилиты и данные, чтобы сделать работу с прошивкой BrokenOs еще лучше. В числе возможностей: автоматическое обновление до последней версии ROM с помощью <b>BrokenOTA</b> и удаление ненужных системных приложений через <b>BrokenSizer</b>.</string>
     <string name="broken_bugreport">Сообщить об ошибке</string>
     <string name="broken_bugreport_summary">Создать отчет об ошибке.</string>

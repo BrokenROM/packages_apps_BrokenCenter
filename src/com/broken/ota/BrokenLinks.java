@@ -70,12 +70,7 @@ public class BrokenLinks extends Fragment {
                     launchUrl(getString(R.string.download_url));
                 }
             } else if (v == mDownloadGapps) {
-                if (mStrCurFile != null
-                    && mStrCurFile.contains("4.4")) {
-                    launchUrl(getString(R.string.gapps_url_kitkat));
-                } else {
-                    launchUrl(getString(R.string.gapps_url));
-                }
+                launchUrl(getString(R.string.gapps_url));
             } else if (v == mFAQ) {
                 launchUrl(getString(R.string.faq_url));
             } else if (v == mNews) {
@@ -116,7 +111,7 @@ public class BrokenLinks extends Fragment {
             String strLine;
             while ((strLine = br.readLine()) != null) {
                 String[] line = strLine.split("=");
-                if (line[0].equals("ro.modversion")) {
+                if (line[0].equals("ro.mod.version")) {
                     mStrCurFile = line[1];
                 }
             }
