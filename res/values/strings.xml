@@ -82,7 +82,7 @@
     <string name="notification_message">BrokenOs ROM update available</string>
 
     <!-- BrokenOTA About -->
-    <string name="about_home_url"><a href="http://dysfunctionalroms.net/">DysfunctionRoms.net</a></string>
+    <string name="about_home_url"><a href="http://dysfunctionalroms.net/">DysfunctionalRoms.net</a></string>
     <string name="about_broken_ota">BrokenCenter allows you to easily manage\n your ROM!</string>
     <string name="about_copyright">\u00A9 Copyright BrokenOs 2014</string>
     <string name="about_version">BrokenCenter 1.0</string>
