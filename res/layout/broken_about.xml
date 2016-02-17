@@ -62,7 +62,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_website" />
+                    android:src="@drawable/website" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -110,7 +110,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_website" />
+                    android:src="@drawable/website" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -158,7 +158,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_donate" />
+                    android:src="@drawable/donate" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -206,7 +206,7 @@
                     android:layout_marginTop="3dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_github" />
+                    android:src="@drawable/github" />
 
                 <TextView
                     android:layout_width="match_parent"
