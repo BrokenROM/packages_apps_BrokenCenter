@@ -1,2 +1,1 @@
-#  need to add a -keep line to stop ProGuard from renaming AlarmListener.
--keep class com.broken.ota.updater.UpdateListener
+

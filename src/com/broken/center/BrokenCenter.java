@@ -18,7 +18,6 @@ package com.broken.center;
 import java.util.Locale;
 
 import com.broken.ota.R;
-import com.broken.ota.BrokenOTA;
 import com.broken.ota.settings.About;
 import com.broken.sizer.BrokenSizer;
 
@@ -107,8 +106,8 @@ ActionBar.TabListener{
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
-            return 3;
+            // Show 2 total pages.
+            return 2;
         }
 
         @Override
@@ -116,10 +115,8 @@ ActionBar.TabListener{
             Locale l = Locale.getDefault();
             switch (position) {
             case 0:
-                return getString(R.string.aboutbroken_title).toUpperCase(l);                
+                return getString(R.string.aboutbroken_title).toUpperCase(l);                                
             case 1:
-                return getString(R.string.ota_title).toUpperCase(l);                
-            case 2:
                 return getString(R.string.sizer_title).toUpperCase(l);
             }
             return null;
@@ -128,10 +125,8 @@ ActionBar.TabListener{
         public android.support.v4.app.Fragment getItem(int page) {
             switch (page) {
             case 0:
-                return new AboutBroken();                
+                return new AboutBroken();                              
             case 1:
-                return new BrokenOTA();                
-            case 2:
                 return new BrokenSizer();
             }
             return null;

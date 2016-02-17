@@ -26,9 +26,6 @@
         android:minSdkVersion="11"
         android:targetSdkVersion="19" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
@@ -48,11 +45,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.broken.ota.BrokenOTA"
-            android:label="@string/ota_title"
-            android:parentActivityName="com.broken.center.BrokenCenter" >
-        </activity>
-        <activity
             android:name="com.broken.sizer.BrokenSizer"
             android:label="@string/sizer_title"
             android:parentActivityName="com.broken.center.BrokenCenter" >
@@ -63,28 +55,8 @@
             android:parentActivityName="com.broken.center.BrokenCenter" >
         </activity>
 
-        <service android:name="com.broken.ota.updater.UpdateService" />
-
-        <receiver android:name="com.commonsware.cwac.wakeful.AlarmReceiver" >
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-
-            <meta-data
-                android:name="com.commonsware.cwac.wakeful"
-                android:resource="@xml/wakeful" />
-        </receiver>
-        <receiver
-            android:name=".updater.ConnectivityReceiver"
-            android:enabled="false" >
-            <intent-filter>
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-            </intent-filter>
-        </receiver>
-
         <activity
-            android:name="com.broken.ota.settings.Settings"
-            android:parentActivityName="com.broken.ota.BrokenOTA">
+            android:name="com.broken.ota.settings.Settings">
         </activity>
         <activity
             android:name="com.broken.ota.settings.About"
