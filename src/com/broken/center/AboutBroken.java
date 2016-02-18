@@ -52,6 +52,8 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.android.internal.util.broken.BuildInfo;
+import com.broken.util.Shell;
+import com.broken.util.Utils;
 
 public class AboutBroken extends Fragment{
 
@@ -72,6 +74,7 @@ public class AboutBroken extends Fragment{
     Process superUser;
     DataOutputStream ds;
     byte[] buf = new byte[1024];
+    Shell.SH shell;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.broken_about, container, false);
@@ -110,17 +113,14 @@ public class AboutBroken extends Fragment{
 
         report = (LinearLayout) getView().findViewById(R.id.broken_bugreport);
         report.setOnClickListener(mActionLayouts);
-        //request su
-        try {
-            if (!su){
-                superUser = Runtime.getRuntime().exec("su");
-                ds = new DataOutputStream(superUser.getOutputStream());
-                ds.writeBytes("mount -o remount,rw /system" + "\n");
-                ds.flush();
-                su = true;
+        // request su
+        if (Utils.isSuEnabled()) {
+            shell = new Shell().su;
+            if (!su) {
+                su = shell.runCommand("exit");
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+        } else {
+            shell = new Shell().sh;
         }
     }
 
@@ -142,33 +142,15 @@ public class AboutBroken extends Fragment{
                 intent, PackageManager.MATCH_DEFAULT_ONLY);
         return list.size() > 0;
     }
-    //bugreport
-    private void bugreport(){
-        try {
-         //collect system information
-         FileInputStream fstream = new FileInputStream("/system/build.prop");
-         DataInputStream in = new DataInputStream(fstream);
-         BufferedReader br = new BufferedReader(new InputStreamReader(in));
-         String strLine;
-         while ((strLine = br.readLine()) != null) {
-             String[] line = strLine.split("=");
-             if (line[0].equalsIgnoreCase("ro.broken.version")) {
-                 mStrDevice = line[1];
-             }
-         }
-         in.close();
-         } catch (Exception e) {
-             Toast.makeText(getView().getContext(), getString(R.string.system_prop_error),
-                     Toast.LENGTH_LONG).show();
-             e.printStackTrace();
-         }
-        String kernel=getFormattedKernelVersion();
-        //check if sdcard is available
-        BrokenSizer sizer=new BrokenSizer();
-        short state = sizer.sdAvailable();
-        //initialize logfiles
+    // bugreport
+    private void bugreport() {
+        // collect system information
+        String kernel = getFormattedKernelVersion();
+        // check if sdcard is available
+        short state = Utils.sdAvailable();
+        // initialize logfiles
         File extdir = Environment.getExternalStorageDirectory();
-        path = new File(extdir.getAbsolutePath().replace("emulated/0", "emulated/legacy") + "/Broken/Bugreport");
+        path = new File(extdir.getAbsolutePath() + "/Broken/Bugreport");
         File savefile = new File(path + "/system.log");
         File logcat = new File(path + "/logcat.log");
         File last_kmsg = new File(path + "/last_kmsg.log");
@@ -183,56 +165,38 @@ public class AboutBroken extends Fragment{
         if (state == 2) {
             try {
                 // create directory if it doesnt exist
-                if (!path.exists()) {
-                    path.mkdirs();
-                }
-                if (savefile.exists()) {
-                    savefile.delete();
-                }
-                if (logcat.exists()) {
-                    logcat.delete();
-                }
-                if (zip.exists()) {
-                    zip.delete();
-                }
-                if (last_kmsg.exists()) {
-                    last_kmsg.delete();
-                }
-                if (kmsg.exists()) {
-                    kmsg.delete();
-                }
-             // create savefile and output lists to it
-                FileWriter outstream = new FileWriter(
-                        savefile);
-                BufferedWriter save = new BufferedWriter(
-                        outstream);
-                save.write("Device: "+mStrDevice+'\n'+"Kernel: "+kernel);
+                if (!path.exists()) path.mkdirs();
+                // cleanup old logs
+                if (savefile.exists()) savefile.delete();
+                if (logcat.exists()) logcat.delete();
+                if (zip.exists()) zip.delete();
+                if (last_kmsg.exists()) last_kmsg.delete();
+                if (kmsg.exists()) kmsg.delete();
+
+                // create savefile and output lists to it
+                FileWriter outstream = new FileWriter(savefile);
+                BufferedWriter save = new BufferedWriter(outstream);
+                save.write("Device: " + mStrDevice + '\n' + "Kernel: " + kernel);
                 save.close();
                 outstream.close();
-                //get logcat and write to file
-                getLogs("logcat -d -f " + logcat + " *:V\n");
-                getLogs("cat /proc/last_kmsg > " + last_kmsgfile + "\n");
-                getLogs("cat /proc/kmsg > " + kmsgfile + "\n");
+                // get logcat and write to file
+                shell.run("logcat -d -f " + logcat + " *:V\n");
+                shell.run("cat /proc/last_kmsg > " + last_kmsgfile + "\n");
+                shell.run("cat /proc/kmsg > " + kmsgfile + "\n");
                 try {
                     Thread.sleep(2000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                //create zip file
-                if (savefile.exists()&&logcat.exists()&&last_kmsg.exists()&&kmsg.exists()) {
-                    boolean zipcreated=zip();
-                    if (zipcreated==true){
-                    dialog(true);
-                    } else {
-                        dialog(false);
-                    }
+                 // create zip file
+                if (savefile.exists() && logcat.exists() && last_kmsg.exists() && kmsg.exists()) {
+                    dialog(zip());
                 }
             } catch (IOException e) {
                 e.printStackTrace();
             }
         } else {
-            toast(getResources().getString(
-                    R.string.sizer_message_sdnowrite));
+            toast(getResources().getString(R.string.sizer_message_sdnowrite));
         }
     }
 
@@ -281,65 +245,50 @@ public class AboutBroken extends Fragment{
             reader.close();
         }
     }
-    //zipping!
-    private boolean zip (){
-        String[] source = {systemfile, logfile, last_kmsgfile, kmsgfile};
+    // zipping!
+    private boolean zip() {
+        String[] source = { systemfile, logfile, last_kmsgfile, kmsgfile };
         try {
             ZipOutputStream out = new ZipOutputStream(new FileOutputStream(zipfile));
-            for (int i=0; i < source.length; i++) {
+            for (int i = 0; i < source.length; i++) {
                 String file = source[i].substring(source[i].lastIndexOf("/"), source[i].length());
                 FileInputStream in = new FileInputStream(source[i]);
                 out.putNextEntry(new ZipEntry(file));
                 int len;
-                while((len = in.read(buf)) > 0) {
+                while ((len = in.read(buf)) > 0) {
                     out.write(buf, 0, len);
                 }
                 out.closeEntry();
                 in.close();
             }
             out.close();
-        } catch(Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
             return false;
         }
-          return true;
+        return true;
     }
 
-    private void getLogs(String command) {
-        try {
-            Process process = Runtime.getRuntime().exec("su");
-            DataOutputStream os = new DataOutputStream(process.getOutputStream());
-            os.writeBytes(command);
-            os.writeBytes("exit\n");
-            os.flush();
-            os.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private void dialog (boolean success){
+    private void dialog(boolean success) {
         final AlertDialog.Builder alert = new AlertDialog.Builder(getActivity());
-        if (success==true){
-            alert.setMessage(R.string.report_infosuccess)
-                 .setPositiveButton(R.string.ok,
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog,
-                                        int id) {
-                                    // action for ok
-                                    dialog.cancel();
-                                }
-                            });
+        if (success) {
+            alert.setMessage(R.string.report_infosuccess).setPositiveButton(R.string.ok,
+                    new DialogInterface.OnClickListener() {
+
+                        public void onClick(DialogInterface dialog, int id) {
+                            // action for ok
+                            dialog.cancel();
+                        }
+                    });
         } else {
-            alert.setMessage(R.string.report_infofail)
-                 .setPositiveButton(R.string.ok,
-                            new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog,
-                                        int id) {
-                                    // action for ok
-                                    dialog.cancel();
-                                }
-                            });
+            alert.setMessage(R.string.report_infofail).setPositiveButton(R.string.ok,
+                    new DialogInterface.OnClickListener() {
+
+                        public void onClick(DialogInterface dialog, int id) {
+                            // action for ok
+                            dialog.cancel();
+                        }
+                    });
         }
         alert.show();
     }

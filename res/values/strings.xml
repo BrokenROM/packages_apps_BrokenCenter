@@ -118,15 +118,15 @@
     <string name="aboutbroken_title">BrokenOs</string>
     <string name="devs">Developer</string>
     <string name="broken_website_title">Broken Website</string>
-    <string name="broken_website_summary">www.dysfunctionroms.net\nFind all latest Broken news here</string>
+    <string name="broken_website_summary">www.dysfunctionalroms.net\nFind all latest Broken news here</string>
     <string name="broken_donate_title">Donate</string>
     <string name="broken_donate_summary">Donate to the Dysfunctional Team</string>
     <string name="broken_source_title">Broken Source</string>
     <string name="broken_source_summary">BrokenOs is fully open source.\nSource is available at github.com/BrokenROM</string>
     <string name="center_summary"><b>BrokenCenter</b> provides tools &amp; information to help make your experience with BrokenOs even better. Find out more info about your favorite ROM with the various links. Collect bug reports and send em to us with <b>Bugreport</b> and remove unwanted system apps with <b>BrokenSizer</b>.</string>
     <string name="broken_bugreport">Bugreport</string>
-    <string name="broken_bugreport_summary">Create a complete Bugreport.</string>
-    <string name="report_infosuccess">Created Systemreport, provide it to Team BrokenOs by attaching it to your Bugreport! You can find the Zip file on your SD-Card in a directory called \"Broken\".</string>
+    <string name="broken_bugreport_summary">Create and store a complete bugreport in /sdcard/Broken.</string>
+    <string name="report_infosuccess">Created a full system report, provide it to the Broken team by attaching it to your Bugreport! You can find the Zip file on your SD-Card in a directory called \"Broken\".</string>
     <string name="report_infofail">Failed to create Bugreport, please try again.</string>
 
 </resources>
