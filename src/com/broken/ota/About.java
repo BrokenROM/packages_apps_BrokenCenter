@@ -14,7 +14,7 @@
  *=========================================================================
  */
 
-package com.broken.ota.settings;
+package com.broken.ota;
 
 import android.app.ActionBar;
 import android.app.Activity;

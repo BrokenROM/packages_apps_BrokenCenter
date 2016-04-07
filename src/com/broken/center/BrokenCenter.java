@@ -18,7 +18,7 @@ package com.broken.center;
 import java.util.Locale;
 
 import com.broken.ota.R;
-import com.broken.ota.settings.About;
+import com.broken.ota.About;
 import com.broken.sizer.BrokenSizer;
 
 import android.app.ActionBar;

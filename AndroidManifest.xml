@@ -57,10 +57,7 @@
         </activity>
 
         <activity
-            android:name="com.broken.ota.settings.Settings">
-        </activity>
-        <activity
-            android:name="com.broken.ota.settings.About"
+            android:name="com.broken.ota.About"
             android:parentActivityName="com.broken.center.BrokenCenter">
         </activity>
     </application>

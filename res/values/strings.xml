@@ -125,7 +125,7 @@
     <string name="broken_source_summary">BrokenOs is fully open source.\nSource is available at github.com/BrokenROM</string>
     <string name="center_summary"><b>BrokenCenter</b> provides tools &amp; information to help make your experience with BrokenOs even better. Find out more info about your favorite ROM with the various links. Collect bug reports and send em to us with <b>Bugreport</b> and remove unwanted system apps with <b>BrokenSizer</b>.</string>
     <string name="broken_bugreport">Bugreport</string>
-    <string name="broken_bugreport_summary">Create and store a complete bugreport in /sdcard/Broken.</string>
+    <string name="broken_bugreport_summary">Must enable permissive SEPolicy in Broken Pieces first</string>
     <string name="report_infosuccess">Created a full system report, provide it to the Broken team by attaching it to your Bugreport! You can find the Zip file on your SD-Card in a directory called \"Broken\".</string>
     <string name="report_infofail">Failed to create Bugreport, please try again.</string>
 
